@@ -8,23 +8,132 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   margin: 0;
 }
 
-body {
-    ::-webkit-scrollbar {
-        display: none;
+::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(125, 92, 250, 0.6);
+    min-height: 120px;
+    color: white;
+    align-items: center;
+    .scrolled {
+        background-color: rgba(125, 92, 250, 0.6);
+        min-height: 80px;
+    }
+    img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin-left: 10%;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        padding-inline-start: 0px;
+        justify-content: space-evenly;
+        width: 60%;
+        li {
+            list-style-type: none;
+            margin-left: 3%; 
+            margin-right: 3%;
+            transition: all ease-in-out .25s;
+            &:hover {
+                transform: scale(1.33);
+            }
+            a {
+                color: rgba(255, 255, 255, 0.829);
+                font-size: 18px;
+                text-decoration: none;
+                &:hover {
+                    color: white;
+                }
+                &:active {
+                    color: white;
+                }
+            }
+        }
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 20%;
+        img {
+            height: 60px;
+            padding: 15px;
+            border: solid 2px rgba(255, 255, 255, 0.82);
+            border-radius: 0%;
+            transition: all ease-in-out .35s;
+            &:hover {
+                padding: 3px;
+                border: solid 2px white;
+                border-radius: 50%;
+            }
+        }
     }
 }
 
 
-
-
+  
+.arrows {
+    width: 60px;
+    height: 72px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%);
+    top: 93%;
+    & path {
+        stroke: #ffffffd2;
+        fill: transparent;
+        stroke-width: 5px;  
+        animation: arrow 2s infinite;
+        -webkit-animation: arrow 2s infinite;
+        &.a1 {
+            animation-delay:-1s;
+            -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+        }
+        &.a2 {
+            animation-delay:-0.5s;
+            -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+        }
+        &.a3 { 
+            animation-delay:0s;
+            -webkit-animation-delay:0s; /* Safari 和 Chrome */
+        }
+    }
+}
+  
+@keyframes arrow {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+}
+  
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+}
 
 .header_slider {
     div {
         img {
-            width: 100%;
+            position: relative;
+            right: .5%;
+            width: 101%;
             height: 100%;
             margin-top: -2px;
-            }
+        }
     }
 }
 
