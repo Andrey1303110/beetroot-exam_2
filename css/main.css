@@ -122,13 +122,13 @@ nav .icons img:hover {
 
 .arrows {
   width: 60px;
-  height: 72px;
+  height: 75px;
   position: absolute;
   z-index: 1;
   left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-  top: 93%;
+  top: 100vh;
+  -webkit-transform: translateX(-50%) translateY(-100%);
+          transform: translateX(-50%) translateY(-100%);
 }
 
 .arrows path {
@@ -189,9 +189,30 @@ nav .icons img:hover {
 
 .header_slider div img {
   position: relative;
-  right: .5%;
-  width: 101%;
+  right: 1%;
+  width: 101.5%;
   height: 100%;
   margin-top: -2px;
+}
+
+.header_slider div .header_slider_div {
+  height: 100vh;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  color: whitesmoke;
+  text-align: center;
+  width: 50%;
+}
+
+.header_slider div .header_slider_div span:nth-child(1) {
+  font-size: 75px;
+  width: 100%;
+}
+
+.header_slider div .header_slider_div span:nth-child(2) {
+  font-size: 18px;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
