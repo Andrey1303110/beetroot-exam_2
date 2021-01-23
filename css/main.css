@@ -199,8 +199,8 @@ nav .icons img:hover {
   height: 100vh;
   position: absolute;
   left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
   color: whitesmoke;
   text-align: center;
   width: 50%;
