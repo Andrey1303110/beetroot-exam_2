@@ -200,6 +200,7 @@ nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        margin-bottom: 15%;
         .left_sect {
             position: sticky;
             width: 50%;
@@ -217,9 +218,10 @@ nav {
         }
         .text_sect.we_do.right_sect {
             width: 40%;
+            margin: 2%;
             span {
                 position: relative;
-                top: 15%;
+                top: 13%;
                 color: #2c4058;
                 font-family: "GothamBook", sans-serif;
                 p {
@@ -229,9 +231,11 @@ nav {
                     &:nth-child(2) {
                         font-size: 44px;
                         font-family: "gothambold1", sans-serif;
+                        margin-bottom: 5%;
                     }
                     &:nth-child(3) {
                         font-size: 16px;
+                        margin-bottom: 4%;
                     }
                     img {
                         display: inline;
@@ -255,7 +259,7 @@ nav {
             width: 50%;
             img {
                 position: relative;
-                left: 110%;
+                left: 101%;
                 transform: translateX(-100%);
                 width: 100%;
             }
@@ -268,9 +272,10 @@ nav {
         }
         .text_sect.we_do.left_sect {
             width: 40%;
+            margin: 2%;
             span {
                 position: relative;
-                top: 15%;
+                top: 13%;
                 color: #2c4058;
                 font-family: "GothamBook", sans-serif;
                 p {
