@@ -22,6 +22,7 @@
   box-sizing: border-box;
 }
 
+
 body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
   margin: 0;
 }
@@ -184,18 +185,18 @@ nav {
 }
 
 #we_do {
-    margin: 100px 0;
+    margin: 10% 0;
     hr {
-        width: 100px;
+        width: 15%;
         margin: 0 auto;
-        margin-bottom: 50px;
+        margin-bottom: 5%;
     }
     h2 {
         width: 25%;
         margin: 0 auto;
         text-align: center;
         font-size: 44px;
-        margin-bottom: 50px;
+        margin-bottom: 5%;
     }
     .sect_we-do.upper_we-do {
         width: 100%;
@@ -229,7 +230,7 @@ nav {
                 a {
                     width: 100%;
                     max-width: 190px;
-                    height: 50px;
+                    height: 10%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -284,7 +285,7 @@ nav {
             width: 50%;
             img {
                 position: relative;
-                left: 101%;
+                left: 100%;
                 transform: translateX(-100%);
                 width: 100%;
             }
@@ -306,7 +307,7 @@ nav {
                 a {
                     width: 100%;
                     max-width: 190px;
-                    height: 50px;
+                    height: 10%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -352,7 +353,18 @@ nav {
     }
 }
 
-
+#news {
+    background-image: url(../img/news/news_bg.jpg);
+    padding: 15% 10%;
+    hr {
+        margin-top: 10%;
+        width: 15%;
+    }
+    h3 {
+        text-align: center;
+        font-size: 44px;
+    }
+}
 
 
 
@@ -362,8 +374,9 @@ nav {
 
 .slick-dots {
   position: absolute;
-  left: 95%;
+  left: 93%;
   top: 45%;
+  width: auto;
   transform: translateY(-50%);
   height: 40%;
   bottom: -25px;
@@ -400,3 +413,24 @@ nav {
     opacity: .75;
     transform: scale(1.35);
   }
+
+.slider-news ul.slick-dots {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    position: relative;
+    width: 30%;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    opacity: .9;
+}
+
+.slider-news ul.slick-dots li button:before {
+    font-size: 15px;
+}
+
+.slider-news ul.slick-dots li.slick-active button:before {
+    transform: scale(1.55);
+    opacity: 1;
+}

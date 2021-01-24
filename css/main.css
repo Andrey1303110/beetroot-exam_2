@@ -249,13 +249,13 @@ nav .icons img:hover {
 }
 
 #we_do {
-  margin: 100px 0;
+  margin: 10% 0;
 }
 
 #we_do hr {
-  width: 100px;
+  width: 15%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
 }
 
 #we_do h2 {
@@ -263,7 +263,7 @@ nav .icons img:hover {
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
 }
 
 #we_do .sect_we-do.upper_we-do {
@@ -315,7 +315,7 @@ nav .icons img:hover {
 #we_do .sect_we-do.upper_we-do .text_sect.we_do.right_sect span a {
   width: 100%;
   max-width: 190px;
-  height: 50px;
+  height: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -390,7 +390,7 @@ nav .icons img:hover {
 
 #we_do .sect_we-do.down_we-do .right_sect img {
   position: relative;
-  left: 101%;
+  left: 100%;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
   width: 100%;
@@ -418,7 +418,7 @@ nav .icons img:hover {
 #we_do .sect_we-do.down_we-do .text_sect.we_do.left_sect span a {
   width: 100%;
   max-width: 190px;
-  height: 50px;
+  height: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -471,14 +471,30 @@ nav .icons img:hover {
   font-style: italic;
 }
 
+#news {
+  background-image: url(../img/news/news_bg.jpg);
+  padding: 15% 10%;
+}
+
+#news hr {
+  margin-top: 10%;
+  width: 15%;
+}
+
+#news h3 {
+  text-align: center;
+  font-size: 44px;
+}
+
 .slick-dotted.slick-slider {
   margin-bottom: none;
 }
 
 .slick-dots {
   position: absolute;
-  left: 95%;
+  left: 93%;
   top: 45%;
+  width: auto;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   height: 40%;
@@ -524,5 +540,34 @@ nav .icons img:hover {
   opacity: .75;
   -webkit-transform: scale(1.35);
           transform: scale(1.35);
+}
+
+.slider-news ul.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  top: 0;
+  left: 0;
+  position: relative;
+  width: 30%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 auto;
+  opacity: .9;
+}
+
+.slider-news ul.slick-dots li button:before {
+  font-size: 15px;
+}
+
+.slider-news ul.slick-dots li.slick-active button:before {
+  -webkit-transform: scale(1.55);
+          transform: scale(1.55);
+  opacity: 1;
 }
 /*# sourceMappingURL=main.css.map */
