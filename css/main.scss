@@ -146,16 +146,16 @@ nav {
             color: whitesmoke;
             text-align: center;
             margin: 0 auto;
-            & span {
+            & span, h1 {
                 position: relative;
                 top: 50%;
             }
-            & span:nth-child(1) {
+            & h1 {
                 font-size: 80px;
                 width: 100%;
                 font-family: "gothambold", sans-serif;
             }
-            & span:nth-child(2) {
+            & span {
                 font-size: 20px;
                 width: 100%;
                 letter-spacing: 4px;

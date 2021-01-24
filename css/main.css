@@ -215,18 +215,18 @@ nav .icons img:hover {
   margin: 0 auto;
 }
 
-.header_slider div .header_slider_div span {
+.header_slider div .header_slider_div span, .header_slider div .header_slider_div h1 {
   position: relative;
   top: 50%;
 }
 
-.header_slider div .header_slider_div span:nth-child(1) {
+.header_slider div .header_slider_div h1 {
   font-size: 80px;
   width: 100%;
   font-family: "gothambold", sans-serif;
 }
 
-.header_slider div .header_slider_div span:nth-child(2) {
+.header_slider div .header_slider_div span {
   font-size: 20px;
   width: 100%;
   letter-spacing: 4px;
