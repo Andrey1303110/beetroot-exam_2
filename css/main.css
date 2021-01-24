@@ -249,12 +249,13 @@ nav .icons img:hover {
 }
 
 #we_do {
-  margin-top: 50px;
+  margin: 100px 0;
 }
 
 #we_do hr {
   width: 100px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 #we_do h2 {
@@ -262,6 +263,7 @@ nav .icons img:hover {
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
+  margin-bottom: 50px;
 }
 
 #we_do .sect_we-do.upper_we-do {
