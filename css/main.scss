@@ -136,21 +136,76 @@ nav {
         }
         & .header_slider_div{
             height: 100vh;
-            position: absolute;
+            width: 800px;
             left: 50%;
-            transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            z-index: 2;
             color: whitesmoke;
             text-align: center;
-            width: 50%;
+            margin: 0 auto;
+            & span {
+                position: relative;
+                top: 50%;
+            }
             & span:nth-child(1) {
-                font-size: 75px;
+                font-size: 80px;
                 width: 100%;
+                font-family: "gothambold", sans-serif;
             }
             & span:nth-child(2) {
-                font-size: 18px;
+                font-size: 20px;
                 width: 100%;
+                letter-spacing: 4px;
+                font-family: "GothamBook", sans-serif;
             }
         }
     }
 }
 
+.slick-dotted.slick-slider {
+  margin-bottom: none;
+}
+
+.slick-dots {
+  position: absolute;
+  left: 95%;
+  top: 45%;
+  transform: translateY(-50%);
+  height: 40%;
+  bottom: -25px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "⚪";
+    width: 20px;
+    height: 20px;
+    font-family: "slick";
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+    opacity: .25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all ease-in-out .25s;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: black;
+    content: "⚫";
+    opacity: .75;
+    transform: scale(1.35);
+  }

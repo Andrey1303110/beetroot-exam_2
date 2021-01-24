@@ -72,6 +72,14 @@
   right: -25px;
 }
 
+.slick-prev:before {
+  content: "←";
+}
+
+[dir="rtl"] .slick-prev:before {
+  content: "→";
+}
+
 .slick-next {
   right: -25px;
 }
@@ -81,25 +89,28 @@
   right: auto;
 }
 
+.slick-next:before {
+  content: "→";
+}
+
+[dir="rtl"] .slick-next:before {
+  content: "←";
+}
+
 /* Dots */
 .slick-dotted.slick-slider {
-  margin-bottom: none;
+  margin-bottom: 30px;
 }
 
 .slick-dots {
   position: absolute;
-  left: 95%;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 40%;
   bottom: -25px;
   list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: block;
   text-align: center;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .slick-dots li {
@@ -138,24 +149,21 @@
   position: absolute;
   top: 0;
   left: 0;
-  content: "⚪";
+  content: "•";
   width: 20px;
   height: 20px;
   font-family: "slick";
-  font-size: 20px;
+  font-size: 6px;
   line-height: 20px;
   text-align: center;
   color: black;
-  opacity: .25;
+  opacity: 0.25;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: all ease-in-out .25s;
 }
 
 .slick-dots li.slick-active button:before {
   color: black;
-  content: "⚫";
-  opacity: .75;
-  transform: scale(1.35);
+  opacity: 0.75;
 }
 /*# sourceMappingURL=slick-theme.css.map */
