@@ -473,17 +473,74 @@ nav .icons img:hover {
 
 #news {
   background-image: url(../img/news/news_bg.jpg);
-  padding: 15% 10%;
+  min-height: 100vh;
+  padding: 5% 10%;
 }
 
 #news hr {
-  margin-top: 10%;
   width: 15%;
+  margin-bottom: 5%;
 }
 
 #news h3 {
   text-align: center;
   font-size: 44px;
+  color: whitesmoke;
+  margin-bottom: 5%;
+}
+
+#news .slide {
+  background-color: whitesmoke;
+  margin: 0 15px;
+  min-height: 480px;
+  width: 30%;
+  color: #2c4058;
+  cursor: pointer;
+}
+
+#news .slide img :nth-child(1) {
+  width: 100%;
+}
+
+#news .slide .down_part_slider {
+  padding: 5%;
+}
+
+#news .slide .down_part_slider span .title_slide {
+  font-family: "gothambold1", sans-serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#news .slide .down_part_slider span .text_slide {
+  font-family: "GothamBook", sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  height: 13%;
+}
+
+#news .slide .down_part_slider div {
+  font-family: "GothamBook", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12%;
+  position: relative;
+}
+
+#news .slide .down_part_slider div img {
+  margin-right: 5%;
+}
+
+#news .slide .down_part_slider div p:nth-child(1) {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+#news .slide .down_part_slider div p:nth-child(2) {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #55b7ff;
 }
 
 .slick-dotted.slick-slider {
@@ -492,7 +549,7 @@ nav .icons img:hover {
 
 .slick-dots {
   position: absolute;
-  left: 93%;
+  left: 95%;
   top: 45%;
   width: auto;
   -webkit-transform: translateY(-50%);
@@ -550,7 +607,7 @@ nav .icons img:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  top: 0;
+  top: 55px;
   left: 0;
   position: relative;
   width: 30%;
@@ -569,5 +626,17 @@ nav .icons img:hover {
   -webkit-transform: scale(1.55);
           transform: scale(1.55);
   opacity: 1;
+}
+
+.slick-prev.slick-arrow {
+  left: -50px;
+}
+
+.slick-next.slick-arrow {
+  right: -50px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 35px;
 }
 /*# sourceMappingURL=main.css.map */

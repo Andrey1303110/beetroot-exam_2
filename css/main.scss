@@ -355,14 +355,63 @@ nav {
 
 #news {
     background-image: url(../img/news/news_bg.jpg);
-    padding: 15% 10%;
+    min-height: 100vh;
+    padding: 5% 10%;
     hr {
-        margin-top: 10%;
         width: 15%;
+        margin-bottom: 5%;
     }
     h3 {
         text-align: center;
         font-size: 44px;
+        color: whitesmoke;
+        margin-bottom: 5%;
+    }
+    .slide {
+        background-color: whitesmoke;
+        margin: 0 15px;
+        min-height: 480px;
+        width: 30%;
+        color: #2c4058;
+        cursor: pointer;
+        img :nth-child(1) {
+            width: 100%;
+        }
+        .down_part_slider {
+            padding: 5%;
+            span {
+                .title_slide {
+                    font-family: "gothambold1", sans-serif;
+                    font-size: 22px;
+                    margin-bottom: 20px;
+                }
+                .text_slide {
+                    font-family: "GothamBook", sans-serif;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    height: 13%;
+                }
+            }
+            div {
+                font-family: "GothamBook", sans-serif;
+                display: flex;
+                margin-top: 12%;
+                position: relative;
+                img {
+                    margin-right: 5%;
+                }
+                p:nth-child(1) {
+                    font-size: 16px;
+                    margin-top: 5px;
+                }
+                p:nth-child(2) {
+                    margin-top: 14px;
+                    font-size: 14px;
+                    color: #55b7ff;
+                }
+            }
+        }
+
     }
 }
 
@@ -374,7 +423,7 @@ nav {
 
 .slick-dots {
   position: absolute;
-  left: 93%;
+  left: 95%;
   top: 45%;
   width: auto;
   transform: translateY(-50%);
@@ -417,7 +466,7 @@ nav {
 .slider-news ul.slick-dots {
     display: flex;
     flex-direction: row;
-    top: 0;
+    top: 55px;
     left: 0;
     position: relative;
     width: 30%;
@@ -433,4 +482,16 @@ nav {
 .slider-news ul.slick-dots li.slick-active button:before {
     transform: scale(1.55);
     opacity: 1;
+}
+
+.slick-prev.slick-arrow {
+    left: -50px;
+}
+  
+.slick-next.slick-arrow {
+    right: -50px;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 35px;
 }
