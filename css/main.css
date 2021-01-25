@@ -845,6 +845,7 @@ footer {
 }
 
 footer .footer_main {
+  padding: 0 25%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -863,7 +864,7 @@ footer .footer_main {
   position: relative;
 }
 
-footer .footer_main .footer_main.icons {
+footer .footer_main .footer_main_icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -876,7 +877,7 @@ footer .footer_main .footer_main.icons {
           justify-content: space-between;
 }
 
-footer .footer_main .footer_main.text {
+footer .footer_main .footer_main_text {
   color: #fff;
   font-family: "GothamBook", sans-serif;
 }
