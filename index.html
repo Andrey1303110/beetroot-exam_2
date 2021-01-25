@@ -14,10 +14,10 @@
 	<nav>
 		<a href=""><img src="./img/Logo.png" alt=""></a>
 		<ul>
-			<li><a href="">ABOUT US</a></li>
-			<li><a href="">PROJECTS</a></li>
-			<li><a href="">NEWS</a></li>
-			<li><a href="">CONTACT</a></li>
+			<li><a href="#home">ABOUT US</a></li>
+			<li><a href="#we_do">PROJECTS</a></li>
+			<li><a href="#news">NEWS</a></li>
+			<li><a href="#contact">CONTACT</a></li>
 		</ul>
 		<div class="icons">
 			<a href=""><img src="./img/icons/icon_facebook.png" alt=""></a>
@@ -235,35 +235,34 @@
 	</section>
 	
 	<section id="contacts">
+		<div class="div_contacts" id="contact">
+			<hr>
+			<h3>GET IN TOUCH</h3>
+			<div class="main_div contacts">
+				<div class="contact_left">
+					<p><img src="./img/icons/icon-pin.png" alt="">Vinnitsa, Ukraine</p>
+					<p><img src="./img/icons/icon-call.png" alt="">+380-97-510-21-85</p>
+					<p><img src="./img/icons/icon-fax.png" alt="">andrey1303110@gmail.com</p>
+					<p><img src="./img/icons/icon-clock.png" alt="">24/7</p>
+				</div>
+				<div class="contact_right">
+					<form action="https://formspree.io/f/mbjpwqdj" method="POST">
+						<label for="Name">
+							<input type="text" name="Name" minlength="3" placeholder="Your name"
+								autocomplete="name" required>
+						</label>
+						<label for="E-mail">
+							<input type="email" name="E-mail" minlength="6" placeholder="Your e-mail"
+								autocomplete="email" required>
+						</label>
+						<button class="mail-btn" type="submit">SEND</button>
+					</form>
+				</div>
+			</div>
+		</div>
 	<div id="map">
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAaCQCfCWzhy4OEOzFJTAamFIv0dLUNsdY&callback=initMap">
 		</script>
-	</div>
-
-	<div class="div_contacts">
-		<hr>
-		<h3>GET IN TOUCH</h3>
-		<div class="main_div contacts">
-			<div class="contact_left">
-				<p><img src="./img/icons/icon-pin.png" alt="">Vinnitsa, Ukraine</p>
-				<p><img src="./img/icons/icon-call.png" alt="">+380-97-510-21-85</p>
-				<p><img src="./img/icons/icon-fax.png" alt="">andrey1303110@gmail</p>
-				<p><img src="./img/icons/icon-clock.png" alt="">24/7</p>
-			</div>
-			<div class="contact_right">
-				<form action="https://formspree.io/f/mbjpwqdj" method="POST">
-					<label for="Name">
-						<input type="text" name="Name" minlength="3" placeholder="Your name"
-							autocomplete="name" required>
-					</label>
-					<label for="E-mail">
-						<input type="email" name="E-mail" minlength="6" placeholder="Your e-mail"
-							autocomplete="email" required>
-					</label>
-					<button class="mail-btn" type="submit">SEND</button>
-				</form>
-			</div>
-		</div>
 	</div>
 	</section>
 
