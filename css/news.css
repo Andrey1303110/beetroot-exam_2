@@ -1,0 +1,74 @@
+#news {
+  background-image: url(../img/news/news_bg.jpg);
+  background-repeat: round;
+  min-height: 100vh;
+  padding: 5% 3%;
+}
+
+#news hr {
+  margin: 5% auto;
+  width: 15%;
+}
+
+#news h3 {
+  text-align: center;
+  font-size: 44px;
+  color: whitesmoke;
+  font-family: "gothambold1", sans-serif;
+  margin-bottom: 5%;
+}
+
+#news .slide {
+  background-color: whitesmoke;
+  margin: 0 15px;
+  min-height: 480px;
+  width: 30%;
+  color: #2c4058;
+  cursor: pointer;
+}
+
+#news .slide img :nth-child(1) {
+  width: 100%;
+}
+
+#news .slide .down_part_slider {
+  padding: 5%;
+}
+
+#news .slide .down_part_slider span .title_slide {
+  font-family: "gothambold1", sans-serif;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#news .slide .down_part_slider span .text_slide {
+  font-family: "GothamBook", sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  height: 13%;
+}
+
+#news .slide .down_part_slider div {
+  font-family: "GothamBook", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12%;
+  position: relative;
+}
+
+#news .slide .down_part_slider div img {
+  margin-right: 5%;
+}
+
+#news .slide .down_part_slider div p:nth-child(1) {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+#news .slide .down_part_slider div p:nth-child(2) {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #55b7ff;
+}
+/*# sourceMappingURL=news.css.map */

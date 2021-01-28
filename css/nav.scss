@@ -1,0 +1,101 @@
+nav {
+    top: calc(var(--min-height) * 0);
+    width: 100%;
+    padding: 0 5%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(87, 60, 184, 0.842) 0%, rgba(151,129,236,0.9023984593837535) 70%, rgba(86,60,184,0) 100%);
+    min-height: calc(var(--min-height) * 1);
+    font-family: "gothambold1", sans-serif;
+    align-items: center;
+    a img, ul, div {
+        position: relative;
+        transition: all .7s ease-in-out;
+        top: calc(var(--min-height) * 0);
+    }
+    .scrolled {
+        background: rgba(255, 255, 255, 0);
+        min-height: 80px;
+    }
+    a {
+        #nav_logo {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            filter: grayscale(1) brightness(5);
+            transition: all .75s ease-in-out;
+            animation-play-state: paused;
+            @keyframes logo {
+                0% { filter: hue-rotate(0deg) }
+                10% { filter: hue-rotate(36deg) }
+                20% { filter: hue-rotate(72deg) }
+                30% { filter: hue-rotate(108deg) }
+                40% { filter: hue-rotate(144deg) }
+                50% { filter: hue-rotate(180deg) }
+                60% { filter: hue-rotate(216deg) }
+                70% { filter: hue-rotate(252deg) }
+                80% { filter: hue-rotate(288deg) }
+                90% { filter: hue-rotate(324deg) }
+                100% { filter: hue-rotate(360deg) }
+            }
+            &:hover {
+                filter: grayscale(0) brightness(1);
+                animation: logo 10s ease-in-out infinite;
+                animation-delay: .75s;
+                animation-play-state: running;
+            }
+        }
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        padding-inline-start: 0px;
+        justify-content: space-evenly;
+        width: 60%;
+        li {
+            list-style-type: none;
+            margin-left: 3%; 
+            margin-right: 3%;
+            transition: all ease-in-out .25s;
+            &:hover {
+                transform: scale(1.33);
+                color: white;
+            }
+            &:hover a {
+                color: white;
+            }
+            &:active a {
+                color: white;
+            }
+            a {
+                color: rgba(255, 255, 255, 1);
+                font-size: 18px;
+                text-decoration: none;
+                transition: all ease-in-out .25s;
+            }
+        }
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 15%;
+        img {
+            width: 60px;
+            height: 60px;
+            padding: 15px;
+            filter: grayscale(1) brightness(5);
+            border-radius: 0%;
+            transition: filter .3s .3s ease-in-out, 
+                        padding .3s ease-in-out;
+            
+            &:hover {
+                filter: grayscale(0) brightness(1.6);
+                padding: 6px;
+            }
+        }
+    }
+}
