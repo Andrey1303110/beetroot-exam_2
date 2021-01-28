@@ -51,7 +51,6 @@ nav {
     justify-content: space-between;
     background: linear-gradient(180deg, rgba(87, 60, 184, 0.842) 0%, rgba(151,129,236,0.9023984593837535) 70%, rgba(86,60,184,0) 100%);
     min-height: calc(var(--min-height) * 1);
-    color: white;
     font-family: "gothambold1", sans-serif;
     align-items: center;
     a img, ul, div {
@@ -114,7 +113,7 @@ nav {
                 color: white;
             }
             a {
-                color: rgba(255, 255, 255, 0.8);
+                color: rgba(255, 255, 255, 1);
                 font-size: 18px;
                 text-decoration: none;
                 transition: all ease-in-out .25s;
@@ -125,17 +124,19 @@ nav {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 25%;
+        width: 15%;
         img {
+            width: 60px;
             height: 60px;
             padding: 15px;
-            border: solid 2px rgba(255, 255, 255, 0.82);
+            filter: grayscale(1) brightness(5);
             border-radius: 0%;
-            transition: all ease-in-out .35s;
+            transition: filter .3s .3s ease-in-out, 
+                        padding .3s ease-in-out;
+            
             &:hover {
-                padding: 3px;
-                border: solid 2px white;
-                border-radius: 50%;
+                filter: grayscale(0) brightness(1.6);
+                padding: 6px;
             }
         }
     }
@@ -149,8 +150,13 @@ nav {
     left: 50%;
     top: 100vh;
     transform: translateX(-50%) translateY(-100%);
+    filter: brightness(0.75);
+    transition: all.3s ease-in-out;
+    &:hover {
+        filter: brightness(2);
+    }
     & path {
-        stroke: #ffffffd2;
+        stroke: rgba(255, 255, 255, 0.808);
         fill: transparent;
         stroke-width: 5px;  
         animation: arrow 2s infinite;
@@ -659,7 +665,7 @@ footer {
         min-height: 10%;
         justify-content: space-between;
         align-items: center;
-        top: 75%;
+        top: 70%;
         position: relative;
         #logo_footer {
             filter: grayscale(1) brightness(5);
@@ -677,6 +683,10 @@ footer {
                 margin: 0 2%;
                 width: 50px;
                 height: 50px;
+                transition: all .75s ease-in-out;
+                &:hover {
+                    filter: grayscale(0) brightness(1);
+                }
             }
         }
         .footer.down_text {

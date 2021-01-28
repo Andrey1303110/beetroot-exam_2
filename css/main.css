@@ -58,7 +58,6 @@ nav {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(87, 60, 184, 0.842)), color-stop(70%, rgba(151, 129, 236, 0.902398)), to(rgba(86, 60, 184, 0)));
   background: linear-gradient(180deg, rgba(87, 60, 184, 0.842) 0%, rgba(151, 129, 236, 0.902398) 70%, rgba(86, 60, 184, 0) 100%);
   min-height: calc(var(--min-height) * 1);
-  color: white;
   font-family: "gothambold1", sans-serif;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -233,7 +232,7 @@ nav ul li:active a {
 }
 
 nav ul li a {
-  color: rgba(255, 255, 255, 0.8);
+  color: white;
   font-size: 18px;
   text-decoration: none;
   -webkit-transition: all ease-in-out .25s;
@@ -251,22 +250,26 @@ nav .icons {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 25%;
+  width: 15%;
 }
 
 nav .icons img {
+  width: 60px;
   height: 60px;
   padding: 15px;
-  border: solid 2px rgba(255, 255, 255, 0.82);
+  -webkit-filter: grayscale(1) brightness(5);
+          filter: grayscale(1) brightness(5);
   border-radius: 0%;
-  -webkit-transition: all ease-in-out .35s;
-  transition: all ease-in-out .35s;
+  -webkit-transition: padding .3s ease-in-out,  -webkit-filter .3s .3s ease-in-out;
+  transition: padding .3s ease-in-out,  -webkit-filter .3s .3s ease-in-out;
+  transition: filter .3s .3s ease-in-out,  padding .3s ease-in-out;
+  transition: filter .3s .3s ease-in-out,  padding .3s ease-in-out,  -webkit-filter .3s .3s ease-in-out;
 }
 
 nav .icons img:hover {
-  padding: 3px;
-  border: solid 2px white;
-  border-radius: 50%;
+  -webkit-filter: grayscale(0) brightness(1.6);
+          filter: grayscale(0) brightness(1.6);
+  padding: 6px;
 }
 
 .arrows {
@@ -278,10 +281,19 @@ nav .icons img:hover {
   top: 100vh;
   -webkit-transform: translateX(-50%) translateY(-100%);
           transform: translateX(-50%) translateY(-100%);
+  -webkit-filter: brightness(0.75);
+          filter: brightness(0.75);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.arrows:hover {
+  -webkit-filter: brightness(2);
+          filter: brightness(2);
 }
 
 .arrows path {
-  stroke: #ffffffd2;
+  stroke: rgba(255, 255, 255, 0.808);
   fill: transparent;
   stroke-width: 5px;
   animation: arrow 2s infinite;
@@ -988,7 +1000,7 @@ footer .footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  top: 75%;
+  top: 70%;
   position: relative;
 }
 
@@ -1020,6 +1032,13 @@ footer .footer .footer_up_icons img {
   margin: 0 2%;
   width: 50px;
   height: 50px;
+  -webkit-transition: all .75s ease-in-out;
+  transition: all .75s ease-in-out;
+}
+
+footer .footer .footer_up_icons img:hover {
+  -webkit-filter: grayscale(0) brightness(1);
+          filter: grayscale(0) brightness(1);
 }
 
 footer .footer .footer.down_text {
