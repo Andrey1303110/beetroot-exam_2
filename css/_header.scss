@@ -1,3 +1,101 @@
+@media screen and (min-device-width: 854px) {
+    #home {
+        height: 100%;
+    #arrow {
+        width: 60px;
+        height: 100px;
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 95%;
+        transform: translateX(-50%) translateY(-100%);
+    }
+    .arrows {
+        width: 60px;
+        height: 75px;
+        filter: brightness(0.75);
+        transition: all.3s ease-in-out;
+        &:hover {
+            filter: brightness(2);
+        }
+        & path {
+            stroke: rgba(255, 255, 255, 0.808);
+            fill: transparent;
+            stroke-width: 5px;  
+            animation: arrow 2s infinite;
+            -webkit-animation: arrow 2s infinite;
+            &.a1 {
+                animation-delay:-1s;
+                -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+            }
+            &.a2 {
+                animation-delay:-0.5s;
+                -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+            }
+            &.a3 { 
+                animation-delay:0s;
+                -webkit-animation-delay:0s; /* Safari 和 Chrome */
+            }
+        }
+    }
+      
+    @keyframes arrow {
+      0% {opacity:0}
+      40% {opacity:1}
+      80% {opacity:0}
+      100% {opacity:0}
+    }
+      
+    @-webkit-keyframes arrow /*Safari and Chrome*/ {
+      0% {opacity:0}
+      40% {opacity:1}
+      80% {opacity:0}
+      100% {opacity:0}
+    }
+    
+    .header_slider {
+        height: 100%;
+        div {
+            img {
+                position: relative;
+                right: 1%;
+                width: 101.5%;
+                height: 100%;
+                margin-top: -2px;
+            }
+            .header_slider_div{
+                height: 100vh;
+                width: 800px;
+                left: 50%;
+                transform: translateX(-50%) translateY(-15%);;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                z-index: 2;
+                color: whitesmoke;
+                text-align: center;
+                margin: 0 auto;
+                span, h1 {
+                    position: relative;
+                    top: 50%;
+                }
+                h1 {
+                    font-size: 80px;
+                    width: 100%;
+                    font-family: "gothambold", sans-serif;
+                }
+                span {
+                    font-size: 20px;
+                    width: 100%;
+                    letter-spacing: 4px;
+                    font-family: "GothamBook", sans-serif;
+                }
+            }
+        }
+    }
+}
+}
+
 @media screen and (min-device-width: 1152px) {
     .arrows {
         width: 60px;
@@ -48,6 +146,7 @@
     }
     
     .header_slider {
+        height: 100%;
         div {
             img {
                 position: relative;
@@ -86,6 +185,103 @@
             }
         }
     }
+}
+
+@media screen and (min-device-width: 1440px) {
+    .arrows {
+        width: 60px;
+        height: 75px;
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 85%;
+        transform: translateX(-50%) translateY(-100%);
+        filter: brightness(0.75);
+        transition: all.3s ease-in-out;
+        &:hover {
+            filter: brightness(2);
+        }
+        & path {
+            stroke: rgba(255, 255, 255, 0.808);
+            fill: transparent;
+            stroke-width: 5px;  
+            animation: arrow 2s infinite;
+            -webkit-animation: arrow 2s infinite;
+            &.a1 {
+                animation-delay:-1s;
+                -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+            }
+            &.a2 {
+                animation-delay:-0.5s;
+                -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+            }
+            &.a3 { 
+                animation-delay:0s;
+                -webkit-animation-delay:0s; /* Safari 和 Chrome */
+            }
+        }
+    }
+      
+    @keyframes arrow {
+      0% {opacity:0}
+      40% {opacity:1}
+      80% {opacity:0}
+      100% {opacity:0}
+    }
+      
+    @-webkit-keyframes arrow /*Safari and Chrome*/ {
+      0% {opacity:0}
+      40% {opacity:1}
+      80% {opacity:0}
+      100% {opacity:0}
+    }
+    
+    .header_slider {
+        height: 100%;
+        div {
+            img {
+                position: relative;
+                right: 1%;
+                width: 101.5%;
+                height: 100%;
+                margin-top: -2px;
+            }
+            .header_slider_div{
+                height: 100vh;
+                width: 800px;
+                left: 50%;
+                transform: translateX(-50%) translateY(-15%);;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                z-index: 2;
+                color: whitesmoke;
+                text-align: center;
+                margin: 0 auto;
+                span, h1 {
+                    position: relative;
+                    top: 50%;
+                }
+                h1 {
+                    font-size: 80px;
+                    width: 100%;
+                    font-family: "gothambold", sans-serif;
+                }
+                span {
+                    font-size: 20px;
+                    width: 100%;
+                    letter-spacing: 4px;
+                    font-family: "GothamBook", sans-serif;
+                }
+            }
+        }
+    }
+}
+    
+    
+    
+    
+    
     
     
     .slick-dotted.slick-slider {
@@ -133,4 +329,3 @@
           opacity: .75;
           transform: scale(1.35);
         }
-}
