@@ -89,6 +89,8 @@ nav a #nav_logo {
 nav a #nav_logo:hover {
   -webkit-filter: grayscale(1) brightness(5) drop-shadow(-12px -6px 3px black);
           filter: grayscale(1) brightness(5) drop-shadow(-12px -6px 3px black);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 nav a #nav_logo:active {
@@ -96,6 +98,8 @@ nav a #nav_logo:active {
           filter: grayscale(1) brightness(5) drop-shadow(-2px -2px 3px black);
   -webkit-transform: translate(-10px, -4px);
           transform: translate(-10px, -4px);
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 nav ul {
