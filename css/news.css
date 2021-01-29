@@ -71,4 +71,45 @@
   font-size: 14px;
   color: #55b7ff;
 }
+
+.slider-news ul.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  top: 55px;
+  left: 0;
+  position: relative;
+  width: 30%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 0 auto;
+  opacity: .9;
+}
+
+.slider-news ul.slick-dots li button:before {
+  font-size: 15px;
+}
+
+.slider-news ul.slick-dots li.slick-active button:before {
+  -webkit-transform: scale(1.55);
+          transform: scale(1.55);
+  opacity: 1;
+}
+
+.slick-prev.slick-arrow {
+  left: -35px;
+}
+
+.slick-next.slick-arrow {
+  right: -15px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 35px;
+}
 /*# sourceMappingURL=news.css.map */

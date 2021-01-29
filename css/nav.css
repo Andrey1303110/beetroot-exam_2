@@ -39,117 +39,29 @@ nav a #nav_logo {
   display: block;
   max-width: 100%;
   height: auto;
-  -webkit-filter: grayscale(1) brightness(5);
-          filter: grayscale(1) brightness(5);
-  -webkit-transition: all .75s ease-in-out;
-  transition: all .75s ease-in-out;
-  -webkit-animation-play-state: paused;
-          animation-play-state: paused;
-}
-
-@-webkit-keyframes logo {
-  0% {
-    -webkit-filter: hue-rotate(0deg);
-            filter: hue-rotate(0deg);
-  }
-  10% {
-    -webkit-filter: hue-rotate(36deg);
-            filter: hue-rotate(36deg);
-  }
-  20% {
-    -webkit-filter: hue-rotate(72deg);
-            filter: hue-rotate(72deg);
-  }
-  30% {
-    -webkit-filter: hue-rotate(108deg);
-            filter: hue-rotate(108deg);
-  }
-  40% {
-    -webkit-filter: hue-rotate(144deg);
-            filter: hue-rotate(144deg);
-  }
-  50% {
-    -webkit-filter: hue-rotate(180deg);
-            filter: hue-rotate(180deg);
-  }
-  60% {
-    -webkit-filter: hue-rotate(216deg);
-            filter: hue-rotate(216deg);
-  }
-  70% {
-    -webkit-filter: hue-rotate(252deg);
-            filter: hue-rotate(252deg);
-  }
-  80% {
-    -webkit-filter: hue-rotate(288deg);
-            filter: hue-rotate(288deg);
-  }
-  90% {
-    -webkit-filter: hue-rotate(324deg);
-            filter: hue-rotate(324deg);
-  }
-  100% {
-    -webkit-filter: hue-rotate(360deg);
-            filter: hue-rotate(360deg);
-  }
-}
-
-@keyframes logo {
-  0% {
-    -webkit-filter: hue-rotate(0deg);
-            filter: hue-rotate(0deg);
-  }
-  10% {
-    -webkit-filter: hue-rotate(36deg);
-            filter: hue-rotate(36deg);
-  }
-  20% {
-    -webkit-filter: hue-rotate(72deg);
-            filter: hue-rotate(72deg);
-  }
-  30% {
-    -webkit-filter: hue-rotate(108deg);
-            filter: hue-rotate(108deg);
-  }
-  40% {
-    -webkit-filter: hue-rotate(144deg);
-            filter: hue-rotate(144deg);
-  }
-  50% {
-    -webkit-filter: hue-rotate(180deg);
-            filter: hue-rotate(180deg);
-  }
-  60% {
-    -webkit-filter: hue-rotate(216deg);
-            filter: hue-rotate(216deg);
-  }
-  70% {
-    -webkit-filter: hue-rotate(252deg);
-            filter: hue-rotate(252deg);
-  }
-  80% {
-    -webkit-filter: hue-rotate(288deg);
-            filter: hue-rotate(288deg);
-  }
-  90% {
-    -webkit-filter: hue-rotate(324deg);
-            filter: hue-rotate(324deg);
-  }
-  100% {
-    -webkit-filter: hue-rotate(360deg);
-            filter: hue-rotate(360deg);
-  }
+  -webkit-filter: grayscale(1) brightness(50);
+          filter: grayscale(1) brightness(50);
+  -webkit-transition: all 10s ease-in-out;
+  transition: all 10s ease-in-out;
+  /*animation: logo 100s ease-in-out infinite;
+            @keyframes logo {
+                0% { filter: hue-rotate(0deg) }
+                10% { filter: hue-rotate(36deg) }
+                20% { filter: hue-rotate(72deg) }
+                30% { filter: hue-rotate(108deg) }
+                40% { filter: hue-rotate(144deg) }
+                50% { filter: hue-rotate(180deg) }
+                60% { filter: hue-rotate(216deg) }
+                70% { filter: hue-rotate(252deg) }
+                80% { filter: hue-rotate(288deg) }
+                90% { filter: hue-rotate(324deg) }
+                100% { filter: hue-rotate(360deg) }
+            }*/
 }
 
 nav a #nav_logo:hover {
   -webkit-filter: grayscale(0) brightness(1);
           filter: grayscale(0) brightness(1);
-  -webkit-animation: logo 10s ease-in-out infinite;
-          animation: logo 10s ease-in-out infinite;
-  -webkit-animation-delay: .75s;
-          animation-delay: .75s;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
 }
 
 nav ul {

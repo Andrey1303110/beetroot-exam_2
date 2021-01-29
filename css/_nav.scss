@@ -25,27 +25,14 @@ nav {
             display: block;
             max-width: 100%;
             height: auto;
-            filter: grayscale(1) brightness(5);
-            transition: all .75s ease-in-out;
-            animation-play-state: paused;
-            @keyframes logo {
-                0% { filter: hue-rotate(0deg) }
-                10% { filter: hue-rotate(36deg) }
-                20% { filter: hue-rotate(72deg) }
-                30% { filter: hue-rotate(108deg) }
-                40% { filter: hue-rotate(144deg) }
-                50% { filter: hue-rotate(180deg) }
-                60% { filter: hue-rotate(216deg) }
-                70% { filter: hue-rotate(252deg) }
-                80% { filter: hue-rotate(288deg) }
-                90% { filter: hue-rotate(324deg) }
-                100% { filter: hue-rotate(360deg) }
-            }
+            transition: all .2s ease-in-out;
+            filter: grayscale(1) brightness(5) drop-shadow(-12px -2px 9px black);
             &:hover {
-                filter: grayscale(0) brightness(1);
-                animation: logo 10s ease-in-out infinite;
-                animation-delay: .75s;
-                animation-play-state: running;
+                filter: grayscale(1) brightness(5) drop-shadow(-12px -6px 3px black);
+            }
+            &:active {
+                filter: grayscale(1) brightness(5) drop-shadow(-2px -2px 3px black);
+                transform: translate(-10px, -4px);
             }
         }
     }
@@ -89,11 +76,11 @@ nav {
             padding: 15px;
             filter: grayscale(1) brightness(5);
             border-radius: 0%;
-            transition: filter .3s .3s ease-in-out, 
+            transition: filter .75s .3s ease-in-out, 
                         padding .3s ease-in-out;
             
             &:hover {
-                filter: grayscale(0) brightness(1.6);
+                filter: grayscale(0) brightness(2);
                 padding: 6px;
             }
         }
