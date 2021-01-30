@@ -1,3 +1,127 @@
+@media screen and (max-device-width: 479px) {
+    #home {
+        height: 100%;
+        position: relative;
+    #arrow {
+        width: 60px;
+        height: 50px;
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 95%;
+        transform: translateX(-50%) translateY(-100%);
+    }
+    .arrows {
+        transform: scale(.3);
+        width: 60px;
+        height: 75px;
+        filter: brightness(0.75);
+        transition: all.3s ease-in-out;
+        &:hover {
+            filter: brightness(2);
+        }
+        & path {
+            stroke: rgba(255, 255, 255, 0.808);
+            fill: transparent;
+            stroke-width: 5px;  
+            animation: arrow 2s infinite;
+            -webkit-animation: arrow 2s infinite;
+            &.a1 {
+                animation-delay:-1s;
+                -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+            }
+            &.a2 {
+                animation-delay:-0.5s;
+                -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+            }
+            &.a3 { 
+                animation-delay:0s;
+                -webkit-animation-delay:0s; /* Safari 和 Chrome */
+            }
+        }
+    }
+      
+    @keyframes arrow {
+      0% {opacity:0}
+      40% {opacity:1}
+      80% {opacity:0}
+      100% {opacity:0}
+    }
+      
+    @-webkit-keyframes arrow /*Safari and Chrome*/ {
+      0% {opacity:0}
+      40% {opacity:1}
+      80% {opacity:0}
+      100% {opacity:0}
+    }
+    
+    .header_slider {
+        height: 100%;
+        div {
+            img {
+                position: relative;
+                right: 1%;
+                width: 101.5%;
+                height: 100%;
+                margin-top: -2px;
+            }
+            .header_slider_div{
+                height: 100vh;
+                width: 80%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-23%);;
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                z-index: 2;
+                color: whitesmoke;
+                text-align: center;
+                margin: 0 auto;
+                span, h1 {
+                    position: relative;
+                    top: 50%;
+                }
+                h1 {
+                    font-size: 24px;
+                    width: 100%;
+                    font-family: "gothambold", sans-serif;
+                }
+                span {
+                    font-size: 12px;
+                    width: 100%;
+                    letter-spacing: 4px;
+                    font-family: "GothamBook", sans-serif;
+                }
+            }
+        }
+    }
+    .slick-dots {
+        position: absolute;
+        left: 92%;
+        top: 50%;
+        width: auto;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        height: 70%;
+        bottom: -25px;
+        list-style: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
+}
+}
+
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
     #home {
         height: 100%;
@@ -67,7 +191,7 @@
             }
             .header_slider_div{
                 height: 100vh;
-                width: 60%;
+                width: 63%;
                 left: 50%;
                 transform: translateX(-50%) translateY(-15%);;
                 display: flex;
@@ -140,7 +264,7 @@
         height: 75px;
         filter: brightness(0.75);
         transition: all.3s ease-in-out;
-        transform: scale(.8);
+        transform: scale(.7);
         &:hover {
             filter: brightness(2);
         }
@@ -559,7 +683,7 @@
         position: absolute;
         z-index: 1;
         left: 50%;
-        top: 85%;
+        top: 95%;
         transform: translateX(-50%) translateY(-100%);
         filter: brightness(0.75);
         transition: all.3s ease-in-out;
@@ -613,9 +737,9 @@
             }
             .header_slider_div{
                 height: 100vh;
-                width: 55%;
+                width: 57%;
                 left: 50%;
-                transform: translateX(-50%) translateY(-15%);;
+                transform: translateX(-50%) translateY(-13%);;
                 display: flex;
                 flex-direction: column;
                 position: absolute;
@@ -628,12 +752,12 @@
                     top: 50%;
                 }
                 h1 {
-                    font-size: 90px;
+                    font-size: 100px;
                     width: 100%;
                     font-family: "gothambold", sans-serif;
                 }
                 span {
-                    font-size: 24px;
+                    font-size: 30px;
                     width: 100%;
                     letter-spacing: 4px;
                     font-family: "GothamBook", sans-serif;
