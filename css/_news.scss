@@ -10,7 +10,7 @@
         }
         h3 {
             text-align: center;
-            font-size: 44px;
+            font-size: 25px;
             color: whitesmoke;
             font-family: "gothambold1", sans-serif;
             margin-bottom: 5%;
@@ -18,7 +18,7 @@
         .slide {
             background-color: whitesmoke;
             margin: 0 15px;
-            min-height: 480px;
+            min-height: 400px;
             width: 30%;
             color: #2c4058;
             cursor: pointer;
@@ -30,14 +30,15 @@
                 span {
                     .title_slide {
                         font-family: "gothambold1", sans-serif;
-                        font-size: 22px;
+                        font-size: 20px;
                         margin-bottom: 20px;
+                        min-height: 60px;
                     }
                     .text_slide {
                         font-family: "GothamBook", sans-serif;
-                        font-size: 16px;
+                        font-size: 14px;
                         margin-bottom: 20px;
-                        min-height: 110px;
+                        min-height: 60px;
                     }
                 }
                 div {
@@ -47,6 +48,10 @@
                     position: relative;
                     img {
                         margin-right: 5%;
+                        width: 40px;
+                        top: 8px;
+                        height: 40px;
+                        position: relative;
                     }
                     p:nth-child(1) {
                         font-size: 16px;

@@ -1842,7 +1842,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #we_do h2 {
     text-align: center;
-    font-size: 36px;
+    font-size: 25px;
     margin-bottom: 5%;
     font-family: "gothambold1", sans-serif;
     color: #2c4058;
@@ -1878,8 +1878,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     width: 100%;
   }
   #we_do .sect_we-do.upper_we-do .text_sect.we_do.right_sect {
-    width: 40%;
-    padding-right: 4%;
+    width: 42%;
+    padding-right: 7%;
   }
   #we_do .sect_we-do.upper_we-do .text_sect.we_do.right_sect span {
     position: relative;
@@ -1904,7 +1904,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     border: 1px solid #2c4058;
     font-family: "GothamBook", sans-serif;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 10px;
     color: #2c4058;
     cursor: pointer;
     -webkit-transition: all .35s ease-in-out;
@@ -1916,11 +1916,11 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     color: #ffffff;
   }
   #we_do .sect_we-do.upper_we-do .text_sect.we_do.right_sect span p:nth-child(1) {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 4%;
   }
   #we_do .sect_we-do.upper_we-do .text_sect.we_do.right_sect span p:nth-child(2) {
-    font-size: 21px;
+    font-size: 18px;
     font-family: "gothambold1", sans-serif;
     margin-bottom: 8%;
   }
@@ -1968,7 +1968,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     width: 100%;
   }
   #we_do .sect_we-do.down_we-do .text_sect.we_do.left_sect {
-    width: 36%;
+    width: 38%;
   }
   #we_do .sect_we-do.down_we-do .text_sect.we_do.left_sect span {
     position: relative;
@@ -1994,7 +1994,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     border: 1px solid #2c4058;
     font-family: "GothamBook", sans-serif;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 10px;
     color: #2c4058;
     cursor: pointer;
     -webkit-transition: all .35s ease-in-out;
@@ -2006,11 +2006,11 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     color: #ffffff;
   }
   #we_do .sect_we-do.down_we-do .text_sect.we_do.left_sect span p:nth-child(1) {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 4%;
   }
   #we_do .sect_we-do.down_we-do .text_sect.we_do.left_sect span p:nth-child(2) {
-    font-size: 21px;
+    font-size: 18px;
     font-family: "gothambold1", sans-serif;
     margin-bottom: 8%;
   }
@@ -2037,10 +2037,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     width: 15%;
   }
   #we_do h2 {
-    width: 50%;
-    margin: 0 auto;
     text-align: center;
-    font-size: 44px;
+    font-size: 35px;
     margin-bottom: 5%;
     font-family: "gothambold1", sans-serif;
     color: #2c4058;
@@ -2081,7 +2079,6 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #we_do .sect_we-do.upper_we-do .text_sect.we_do.right_sect span {
     position: relative;
-    top: 23%;
     color: #2c4058;
     font-family: "GothamBook", sans-serif;
   }
@@ -2114,11 +2111,11 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     color: #ffffff;
   }
   #we_do .sect_we-do.upper_we-do .text_sect.we_do.right_sect span p:nth-child(1) {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 2%;
   }
   #we_do .sect_we-do.upper_we-do .text_sect.we_do.right_sect span p:nth-child(2) {
-    font-size: 36px;
+    font-size: 30px;
     font-family: "gothambold1", sans-serif;
     margin-bottom: 8%;
   }
@@ -2133,6 +2130,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     margin-top: 7%;
     font-size: 14px;
     font-style: italic;
+    min-width: 176px;
   }
   #we_do .sect_we-do.down_we-do {
     width: 100%;
@@ -2170,7 +2168,6 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #we_do .sect_we-do.down_we-do .text_sect.we_do.left_sect span {
     position: relative;
-    top: 23%;
     left: 13%;
     color: #2c4058;
     font-family: "GothamBook", sans-serif;
@@ -2204,11 +2201,11 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     color: #ffffff;
   }
   #we_do .sect_we-do.down_we-do .text_sect.we_do.left_sect span p:nth-child(1) {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 2%;
   }
   #we_do .sect_we-do.down_we-do .text_sect.we_do.left_sect span p:nth-child(2) {
-    font-size: 36px;
+    font-size: 30px;
     font-family: "gothambold1", sans-serif;
     margin-bottom: 8%;
   }
@@ -2223,6 +2220,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     margin-top: 7%;
     font-size: 14px;
     font-style: italic;
+    min-width: 180px;
   }
 }
 
@@ -3031,7 +3029,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #news h3 {
     text-align: center;
-    font-size: 44px;
+    font-size: 25px;
     color: whitesmoke;
     font-family: "gothambold1", sans-serif;
     margin-bottom: 5%;
@@ -3039,7 +3037,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   #news .slide {
     background-color: whitesmoke;
     margin: 0 15px;
-    min-height: 480px;
+    min-height: 400px;
     width: 30%;
     color: #2c4058;
     cursor: pointer;
@@ -3052,14 +3050,15 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #news .slide .down_part_slider span .title_slide {
     font-family: "gothambold1", sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 20px;
+    min-height: 60px;
   }
   #news .slide .down_part_slider span .text_slide {
     font-family: "GothamBook", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 20px;
-    min-height: 110px;
+    min-height: 60px;
   }
   #news .slide .down_part_slider div {
     font-family: "GothamBook", sans-serif;
@@ -3071,6 +3070,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #news .slide .down_part_slider div img {
     margin-right: 5%;
+    width: 40px;
+    top: 8px;
+    height: 40px;
+    position: relative;
   }
   #news .slide .down_part_slider div p:nth-child(1) {
     font-size: 16px;
@@ -3638,7 +3641,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   #gallery h3 {
     margin: 5% 0;
     text-align: center;
-    font-size: 44px;
+    font-size: 25px;
     font-family: "gothambold1", sans-serif;
     color: #2c4058;
   }
