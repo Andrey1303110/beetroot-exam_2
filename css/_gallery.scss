@@ -84,8 +84,9 @@
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
     #gallery {
         min-height: 870px;
+        max-height: 1340px;
         height: 100vh;
-        margin-bottom: 300px;
+        margin-bottom: 50px;
         hr {
             margin: 5% auto;
             width: 15%;
@@ -121,8 +122,9 @@
         }
             .grid {
                 min-width: 460px;
-                max-width: 65%;
+                max-width: 555px;
                 min-height: 800px;
+                max-height: 1040px;
                 height: 100%;
                 margin: 0 auto;
                 display: grid;
@@ -165,7 +167,10 @@
 
 @media screen and (min-device-width: 854px) and (max-device-width: 1151px) {
     #gallery {
-        height: 75vh;
+        min-height: 600px;
+        max-height: 700px;
+        height: 50vh;
+        margin-bottom: 50px;
         hr {
             margin: 5% auto;
             width: 15%;
@@ -401,6 +406,7 @@
 
 @media screen and (min-device-width: 1680px) {
     #gallery {
+        
         hr {
             margin: 5% auto;
             width: 15%;

@@ -505,9 +505,10 @@
 
 @media screen and (min-device-width: 1680px) {
     #news {
+        min-height: 900px;
+        max-height: 1100px;
         background-image: url(../img/news/news_bg.jpg);
         background-repeat: round;
-        min-height: 100vh;
         padding: 5% 3%;
         hr {
             margin: 5% auto;
