@@ -4121,9 +4121,6 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 }
 
 @media screen and (min-device-width: 1680px) {
-  #gallery {
-    height: 100vh;
-  }
   #gallery hr {
     margin: 5% auto;
     width: 15%;
@@ -4412,8 +4409,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   #contacts div.div_contacts {
     position: absolute;
     left: 50%;
-    -webkit-transform: translate(-50%, 110%);
-            transform: translate(-50%, 110%);
+    -webkit-transform: translate(-50%, 150%);
+            transform: translate(-50%, 150%);
     width: 50%;
     z-index: 1;
     min-height: 50%;
