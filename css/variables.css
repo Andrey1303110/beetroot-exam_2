@@ -3157,6 +3157,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     font-family: "gothambold1", sans-serif;
     font-size: 28px;
     margin-bottom: 20px;
+    min-height: 100px;
   }
   #news .slide .down_part_slider span .text_slide {
     font-family: "GothamBook", sans-serif;
@@ -3169,7 +3170,6 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 12%;
     position: relative;
   }
   #news .slide .down_part_slider div img {
@@ -3330,7 +3330,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   #news {
     background-image: url(../img/news/news_bg.jpg);
     background-repeat: round;
-    max-height: 100vh;
+    min-height: 100vh;
     padding: 5% 3%;
   }
   #news hr {
@@ -3431,7 +3431,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   #news {
     background-image: url(../img/news/news_bg.jpg);
     background-repeat: round;
-    max-height: 100vh;
+    min-height: 100vh;
     padding: 5% 3%;
   }
   #news hr {
@@ -3531,7 +3531,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   #news {
     background-image: url(../img/news/news_bg.jpg);
     background-repeat: round;
-    max-height: 100vh;
+    min-height: 100vh;
     padding: 5% 3%;
   }
   #news hr {
@@ -4394,6 +4394,168 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 #contacts div.div_contacts .main_div.contacts .contact_right .mail-btn:hover {
   background-color: #2c4058;
   color: #ffffff;
+}
+
+@media screen and (min-device-width: 1680px) {
+  #contacts {
+    min-height: 750px;
+  }
+  #contacts #map {
+    width: 100%;
+    min-height: 750px;
+    height: 100%;
+    position: absolute;
+  }
+  #contacts div.div_contacts {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, 110%);
+            transform: translate(-50%, 110%);
+    width: 50%;
+    z-index: 1;
+    min-height: 50%;
+    background-color: #fff;
+    padding: 2%;
+    -webkit-transition: all ease-in-out 1s;
+    transition: all ease-in-out 1s;
+    opacity: .5;
+  }
+  #contacts div.div_contacts:hover {
+    background-color: #fff;
+    opacity: 1;
+  }
+  #contacts div.div_contacts hr {
+    width: 20%;
+    margin: 2% auto;
+  }
+  #contacts div.div_contacts h3 {
+    text-align: center;
+    font-size: 44px;
+    font-family: "gothambold1", sans-serif;
+    color: #2c4058;
+    margin: 8% 0%;
+  }
+  #contacts div.div_contacts .main_div.contacts {
+    height: 100%;
+    min-height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_left p {
+    color: #2c4058;
+    font-family: "GothamBook", sans-serif;
+    font-size: 20px;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_left p img {
+    margin: 0 3%;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right label {
+    background-color: none;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right label :focus {
+    background-color: rgba(61, 40, 136, 0.336);
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right label :nth-child(1) {
+    margin-bottom: 15%;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right label :nth-child(2) {
+    margin: 15% 0;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right label input {
+    border: none;
+    border-bottom: solid 1px #2c4058;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    min-width: 300px;
+    min-height: 30px;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right label input ::-webkit-input-placeholder {
+    font-size: 20px;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right label input :-ms-input-placeholder {
+    font-size: 20px;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right label input ::-ms-input-placeholder {
+    font-size: 20px;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right label input ::placeholder {
+    font-size: 20px;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right .mail-btn {
+    width: 100%;
+    height: 10%;
+    max-width: 50%;
+    min-height: 50px;
+    position: relative;
+    left: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: transparent;
+    border: 1px solid #2c4058;
+    font-family: "GothamBook", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #2c4058;
+    cursor: pointer;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
+    text-decoration: none;
+  }
+  #contacts div.div_contacts .main_div.contacts .contact_right .mail-btn:hover {
+    background-color: #2c4058;
+    color: #ffffff;
+  }
 }
 
 footer {

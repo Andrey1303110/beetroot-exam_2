@@ -136,6 +136,7 @@
                         font-family: "gothambold1", sans-serif;
                         font-size: 28px;
                         margin-bottom: 20px;
+                        min-height: 100px;
                     }
                     .text_slide {
                         font-family: "GothamBook", sans-serif;
@@ -147,7 +148,6 @@
                 div {
                     font-family: "GothamBook", sans-serif;
                     display: flex;
-                    margin-top: 12%;
                     position: relative;
                     img {
                         margin-right: 5%;
@@ -307,7 +307,7 @@
     #news {
         background-image: url(../img/news/news_bg.jpg);
         background-repeat: round;
-        max-height: 100vh;
+        min-height: 100vh;
         padding: 5% 3%;
         hr {
             margin: 5% auto;
@@ -407,7 +407,7 @@
     #news {
         background-image: url(../img/news/news_bg.jpg);
         background-repeat: round;
-        max-height: 100vh;
+        min-height: 100vh;
         padding: 5% 3%;
         hr {
             margin: 5% auto;
@@ -507,7 +507,7 @@
     #news {
         background-image: url(../img/news/news_bg.jpg);
         background-repeat: round;
-        max-height: 100vh;
+        min-height: 100vh;
         padding: 5% 3%;
         hr {
             margin: 5% auto;
