@@ -243,7 +243,7 @@
 
 @media screen and (min-device-width: 1152px) and (max-device-width: 1439px) {
     #gallery {
-        height: 85vh;
+        margin-bottom: 7%;
         hr {
             margin: 5% auto;
             width: 15%;
@@ -258,6 +258,7 @@
         a {
             width: 100%;
             max-width: 190px;
+            min-height: 70px;
             height: 5%;
             margin: 5% auto;
             display: flex;
@@ -321,7 +322,7 @@
 
 @media screen and (min-device-width: 1440px) and (max-device-width: 1680px) {
     #gallery {
-        height: 95vh;
+        margin-bottom: 7%;
         hr {
             margin: 5% auto;
             width: 15%;
@@ -336,6 +337,7 @@
         a {
             width: 100%;
             max-width: 190px;
+            min-height: 80px;
             height: 5%;
             margin: 5% auto;
             display: flex;
@@ -414,6 +416,7 @@
         a {
             width: 100%;
             max-width: 190px;
+            min-height: 95px;
             height: 5%;
             margin: 5% auto;
             display: flex;
