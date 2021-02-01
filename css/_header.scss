@@ -4,19 +4,19 @@
         position: relative;
     #arrow {
         width: 60px;
-        height: 50px;
+        height: 100px;
         position: absolute;
         z-index: 1;
         left: 50%;
-        top: 95%;
+        top: 100%;
         transform: translateX(-50%) translateY(-100%);
     }
     .arrows {
-        transform: scale(.3);
         width: 60px;
         height: 75px;
         filter: brightness(0.75);
         transition: all.3s ease-in-out;
+        transform: scale(.4);
         &:hover {
             filter: brightness(2);
         }
@@ -67,9 +67,11 @@
             }
             .header_slider_div{
                 height: 100vh;
-                width: 80%;
+                max-height: 270px;
+                min-height: 160px;
+                width: 800px;
                 left: 50%;
-                transform: translateX(-50%) translateY(-23%);;
+                transform: translateX(-50%) translateY(-15%);;
                 display: flex;
                 flex-direction: column;
                 position: absolute;
@@ -82,13 +84,14 @@
                     top: 50%;
                 }
                 h1 {
-                    font-size: 24px;
+                    font-size: 30px;
                     width: 100%;
                     font-family: "gothambold", sans-serif;
                 }
                 span {
-                    font-size: 12px;
-                    width: 100%;
+                    font-size: 10px;
+                    width: 30%;
+                    margin: 0 auto;
                     letter-spacing: 4px;
                     font-family: "GothamBook", sans-serif;
                 }
@@ -128,19 +131,19 @@
         position: relative;
     #arrow {
         width: 60px;
-        height: 50px;
+        height: 100px;
         position: absolute;
         z-index: 1;
         left: 50%;
-        top: 95%;
+        top: 100%;
         transform: translateX(-50%) translateY(-100%);
     }
     .arrows {
-        transform: scale(.5);
         width: 60px;
         height: 75px;
         filter: brightness(0.75);
         transition: all.3s ease-in-out;
+        transform: scale(.6);
         &:hover {
             filter: brightness(2);
         }
@@ -191,7 +194,9 @@
             }
             .header_slider_div{
                 height: 100vh;
-                width: 63%;
+                max-height: 350px;
+                min-height: 270px;
+                width: 800px;
                 left: 50%;
                 transform: translateX(-50%) translateY(-15%);;
                 display: flex;
@@ -206,19 +211,21 @@
                     top: 50%;
                 }
                 h1 {
-                    font-size: 30px;
+                    font-size: 35px;
                     width: 100%;
                     font-family: "gothambold", sans-serif;
                 }
                 span {
                     font-size: 12px;
-                    width: 100%;
+                    width: 80%;
+                    margin: 0 auto;
                     letter-spacing: 4px;
                     font-family: "GothamBook", sans-serif;
                 }
             }
         }
     }
+}
     .slick-dots {
         position: absolute;
         left: 92%;
@@ -243,7 +250,6 @@
         padding: 0;
         margin: 0;
       }
-}
 }
 
 @media screen and (min-device-width: 854px) and (max-device-width: 1151px) {
@@ -315,6 +321,8 @@
             }
             .header_slider_div{
                 height: 100vh;
+                max-height: 660px;
+                min-height: 500px;
                 width: 800px;
                 left: 50%;
                 transform: translateX(-50%) translateY(-15%);;
@@ -401,8 +409,8 @@
         position: absolute;
         z-index: 1;
         left: 50%;
-        top: 95%;
-        transform: translateX(-50%) translateY(-100%);
+        top: 85%;
+        text-align: center;
         filter: brightness(0.75);
         transition: all.3s ease-in-out;
         &:hover {
@@ -533,42 +541,44 @@
 
 @media screen and (min-device-width: 1440px) and (max-device-width: 1679px) {
     #home {
-        height: 100%;
+        height: 40vh;
+        min-height: 700px;
+        max-height: 1350px;
         position: relative;
 
-    .arrows {
-        width: 60px;
-        height: 75px;
-        position: absolute;
-        z-index: 1;
-        left: 50%;
-        top: 95%;
-        transform: translateX(-50%) translateY(-100%);
-        filter: brightness(0.75);
-        transition: all.3s ease-in-out;
-        &:hover {
-            filter: brightness(2);
+        .arrows {
+            width: 60px;
+            height: 75px;
+            position: absolute;
+            z-index: 1;
+            left: 50%;
+            top: 90vh;
+            transform: translateX(-50%) translateY(-100%);
+            filter: brightness(0.75);
+            transition: all.3s ease-in-out;
+            &:hover {
+                filter: brightness(2);
+            }
+            & path {
+                stroke: rgba(255, 255, 255, 0.808);
+                fill: transparent;
+                stroke-width: 5px;  
+                animation: arrow 2s infinite;
+                -webkit-animation: arrow 2s infinite;
+                &.a1 {
+                    animation-delay:-1s;
+                    -webkit-animation-delay:-1s; /* Safari 和 Chrome */
+                }
+                &.a2 {
+                    animation-delay:-0.5s;
+                    -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+                }
+                &.a3 { 
+                    animation-delay:0s;
+                    -webkit-animation-delay:0s; /* Safari 和 Chrome */
+                }
+            }
         }
-        & path {
-            stroke: rgba(255, 255, 255, 0.808);
-            fill: transparent;
-            stroke-width: 5px;  
-            animation: arrow 2s infinite;
-            -webkit-animation: arrow 2s infinite;
-            &.a1 {
-                animation-delay:-1s;
-                -webkit-animation-delay:-1s; /* Safari 和 Chrome */
-            }
-            &.a2 {
-                animation-delay:-0.5s;
-                -webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
-            }
-            &.a3 { 
-                animation-delay:0s;
-                -webkit-animation-delay:0s; /* Safari 和 Chrome */
-            }
-        }
-    }
       
     @keyframes arrow {
       0% {opacity:0}
@@ -595,7 +605,9 @@
                 margin-top: -2px;
             }
             .header_slider_div{
-                height: 100vh;
+                height: 40vh;
+                min-height: 850px;
+                max-height: 1350px;
                 width: 53%;
                 left: 50%;
                 transform: translateX(-50%) translateY(-10%);;
@@ -674,7 +686,9 @@
 
 @media screen and (min-device-width: 1680px) {
     #home {
-        height: 100%;
+        height: 95vh;
+        min-height: 850px;
+        max-height: 1350px;
         position: relative;
 
     .arrows {
@@ -683,7 +697,7 @@
         position: absolute;
         z-index: 1;
         left: 50%;
-        top: 95%;
+        top: 90vh;
         transform: translateX(-50%) translateY(-100%);
         filter: brightness(0.75);
         transition: all.3s ease-in-out;
@@ -736,7 +750,10 @@
                 margin-top: -2px;
             }
             .header_slider_div{
-                height: 100vh;
+                height: 95vh;
+                min-height: 850px;
+                max-height: 1350px;
+                position: relative;
                 width: 57%;
                 left: 50%;
                 transform: translateX(-50%) translateY(-13%);;

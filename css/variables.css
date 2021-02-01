@@ -851,23 +851,23 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #home #arrow {
     width: 60px;
-    height: 50px;
+    height: 100px;
     position: absolute;
     z-index: 1;
     left: 50%;
-    top: 95%;
+    top: 100%;
     -webkit-transform: translateX(-50%) translateY(-100%);
             transform: translateX(-50%) translateY(-100%);
   }
   #home .arrows {
-    -webkit-transform: scale(0.3);
-            transform: scale(0.3);
     width: 60px;
     height: 75px;
     -webkit-filter: brightness(0.75);
             filter: brightness(0.75);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(0.4);
+            transform: scale(0.4);
   }
   #home .arrows:hover {
     -webkit-filter: brightness(2);
@@ -935,10 +935,12 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #home .header_slider div .header_slider_div {
     height: 100vh;
-    width: 80%;
+    max-height: 270px;
+    min-height: 160px;
+    width: 800px;
     left: 50%;
-    -webkit-transform: translateX(-50%) translateY(-23%);
-            transform: translateX(-50%) translateY(-23%);
+    -webkit-transform: translateX(-50%) translateY(-15%);
+            transform: translateX(-50%) translateY(-15%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -957,13 +959,14 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     top: 50%;
   }
   #home .header_slider div .header_slider_div h1 {
-    font-size: 24px;
+    font-size: 30px;
     width: 100%;
     font-family: "gothambold", sans-serif;
   }
   #home .header_slider div .header_slider_div span {
-    font-size: 12px;
-    width: 100%;
+    font-size: 10px;
+    width: 30%;
+    margin: 0 auto;
     letter-spacing: 4px;
     font-family: "GothamBook", sans-serif;
   }
@@ -1000,23 +1003,23 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #home #arrow {
     width: 60px;
-    height: 50px;
+    height: 100px;
     position: absolute;
     z-index: 1;
     left: 50%;
-    top: 95%;
+    top: 100%;
     -webkit-transform: translateX(-50%) translateY(-100%);
             transform: translateX(-50%) translateY(-100%);
   }
   #home .arrows {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
     width: 60px;
     height: 75px;
     -webkit-filter: brightness(0.75);
             filter: brightness(0.75);
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    -webkit-transform: scale(0.6);
+            transform: scale(0.6);
   }
   #home .arrows:hover {
     -webkit-filter: brightness(2);
@@ -1084,7 +1087,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #home .header_slider div .header_slider_div {
     height: 100vh;
-    width: 63%;
+    max-height: 350px;
+    min-height: 270px;
+    width: 800px;
     left: 50%;
     -webkit-transform: translateX(-50%) translateY(-15%);
             transform: translateX(-50%) translateY(-15%);
@@ -1106,17 +1111,18 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     top: 50%;
   }
   #home .header_slider div .header_slider_div h1 {
-    font-size: 30px;
+    font-size: 35px;
     width: 100%;
     font-family: "gothambold", sans-serif;
   }
   #home .header_slider div .header_slider_div span {
     font-size: 12px;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
     letter-spacing: 4px;
     font-family: "GothamBook", sans-serif;
   }
-  #home .slick-dots {
+  .slick-dots {
     position: absolute;
     left: 92%;
     top: 50%;
@@ -1233,6 +1239,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #home .header_slider div .header_slider_div {
     height: 100vh;
+    max-height: 660px;
+    min-height: 500px;
     width: 800px;
     left: 50%;
     -webkit-transform: translateX(-50%) translateY(-15%);
@@ -1330,9 +1338,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     position: absolute;
     z-index: 1;
     left: 50%;
-    top: 95%;
-    -webkit-transform: translateX(-50%) translateY(-100%);
-            transform: translateX(-50%) translateY(-100%);
+    top: 85%;
+    text-align: center;
     -webkit-filter: brightness(0.75);
             filter: brightness(0.75);
     -webkit-transition: all 0.3s ease-in-out;
@@ -1492,7 +1499,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 1440px) and (max-device-width: 1679px) {
   #home {
-    height: 100%;
+    height: 40vh;
+    min-height: 700px;
+    max-height: 1350px;
     position: relative;
   }
   #home .arrows {
@@ -1501,7 +1510,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     position: absolute;
     z-index: 1;
     left: 50%;
-    top: 95%;
+    top: 90vh;
     -webkit-transform: translateX(-50%) translateY(-100%);
             transform: translateX(-50%) translateY(-100%);
     -webkit-filter: brightness(0.75);
@@ -1574,7 +1583,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     margin-top: -2px;
   }
   #home .header_slider div .header_slider_div {
-    height: 100vh;
+    height: 40vh;
+    min-height: 850px;
+    max-height: 1350px;
     width: 53%;
     left: 50%;
     -webkit-transform: translateX(-50%) translateY(-10%);
@@ -1663,7 +1674,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 1680px) {
   #home {
-    height: 100%;
+    height: 95vh;
+    min-height: 850px;
+    max-height: 1350px;
     position: relative;
   }
   #home .arrows {
@@ -1672,7 +1685,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     position: absolute;
     z-index: 1;
     left: 50%;
-    top: 95%;
+    top: 90vh;
     -webkit-transform: translateX(-50%) translateY(-100%);
             transform: translateX(-50%) translateY(-100%);
     -webkit-filter: brightness(0.75);
@@ -1745,7 +1758,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     margin-top: -2px;
   }
   #home .header_slider div .header_slider_div {
-    height: 100vh;
+    height: 95vh;
+    min-height: 850px;
+    max-height: 1350px;
+    position: relative;
     width: 57%;
     left: 50%;
     -webkit-transform: translateX(-50%) translateY(-13%);
@@ -2233,8 +2249,6 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     width: 15%;
   }
   #we_do h2 {
-    width: 50%;
-    margin: 0 auto;
     text-align: center;
     font-size: 44px;
     margin-bottom: 5%;
@@ -2431,8 +2445,6 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     width: 15%;
   }
   #we_do h2 {
-    width: 25%;
-    margin: 0 auto;
     text-align: center;
     font-size: 44px;
     margin-bottom: 5%;
@@ -2629,8 +2641,6 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     width: 15%;
   }
   #we_do h2 {
-    width: 25%;
-    margin: 0 auto;
     text-align: center;
     font-size: 44px;
     margin-bottom: 5%;
@@ -2827,8 +2837,6 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     width: 15%;
   }
   #we_do h2 {
-    width: 25%;
-    margin: 0 auto;
     text-align: center;
     font-size: 44px;
     margin-bottom: 5%;
@@ -3334,8 +3342,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 1152px) and (max-device-width: 1439px) {
   #news {
-    min-height: 930px;
-    max-height: 1100px;
+    min-height: 950px;
+    max-height: 1050px;
     height: 100vh;
     background-image: url(../img/news/news_bg.jpg);
     background-repeat: round;
@@ -3438,8 +3446,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 1440px) and (max-device-width: 1680px) {
   #news {
-    min-height: 930px;
-    max-height: 1100px;
+    min-height: 850px;
+    max-height: 950px;
     height: 100vh;
     background-image: url(../img/news/news_bg.jpg);
     background-repeat: round;
