@@ -79,8 +79,8 @@
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
     footer {
         height: 70vh;
-        min-height: 450px;
-        max-height: 650px;
+        min-height: 550px;
+        max-height: 700px;
         background-image: url(../img/footer/footer_bg.jpg);
         background-repeat: round;
         background-size: cover;
@@ -91,7 +91,7 @@
             min-height: 10%;
             justify-content: space-between;
             align-items: center;
-            top: 80%;
+            top: 78%;
             position: relative;
             #logo_footer {
                 filter: grayscale(1) brightness(5);

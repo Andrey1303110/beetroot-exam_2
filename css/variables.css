@@ -5479,8 +5479,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
   footer {
     height: 70vh;
-    min-height: 450px;
-    max-height: 650px;
+    min-height: 550px;
+    max-height: 700px;
     background-image: url(../img/footer/footer_bg.jpg);
     background-repeat: round;
     background-size: cover;
@@ -5501,7 +5501,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    top: 80%;
+    top: 78%;
     position: relative;
   }
   footer .footer #logo_footer {
