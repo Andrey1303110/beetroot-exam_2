@@ -1,7 +1,7 @@
 @media screen and (max-device-width: 479px) {
     footer {
         height: 70vh;
-        min-height: 400px;
+        min-height: 450px;
         max-height: 600px;
         background-image: url(../img/footer/footer_bg.jpg);
         background-repeat: round;
@@ -59,7 +59,7 @@
                     font-size: 40px;
                     animation: heart 1s infinite;
                     animation-play-state: paused;
-                    width: 30px;
+                    width: 55px;
                     text-align: center;
     
                     @keyframes heart {
@@ -79,8 +79,8 @@
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
     footer {
         height: 70vh;
-        min-height: 400px;
-        max-height: 600px;
+        min-height: 450px;
+        max-height: 650px;
         background-image: url(../img/footer/footer_bg.jpg);
         background-repeat: round;
         background-size: cover;
@@ -131,7 +131,7 @@
                     font-size: 40px;
                     animation: heart 1s infinite;
                     animation-play-state: paused;
-                    width: 30px;
+                    width: 55px;
                     text-align: center;
     
                     @keyframes heart {
@@ -203,7 +203,7 @@
                     font-size: 40px;
                     animation: heart 1s infinite;
                     animation-play-state: paused;
-                    width: 30px;
+                    width: 55px;
                     text-align: center;
     
                     @keyframes heart {
@@ -275,7 +275,7 @@
                     font-size: 40px;
                     animation: heart 1s infinite;
                     animation-play-state: paused;
-                    width: 30px;
+                    width: 55px;
                     text-align: center;
     
                     @keyframes heart {
@@ -348,7 +348,7 @@
                     font-size: 40px;
                     animation: heart 1s infinite;
                     animation-play-state: paused;
-                    width: 50px;
+                    width: 55px;
                     text-align: center;
     
                     @keyframes heart {
@@ -421,7 +421,7 @@
                     font-size: 40px;
                     animation: heart 1s infinite;
                     animation-play-state: paused;
-                    width: 50px;
+                    width: 55px;
                     text-align: center;
     
                     @keyframes heart {
