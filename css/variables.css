@@ -270,7 +270,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   nav ul li a {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     -webkit-transition: all ease-in-out .25s;
     transition: all ease-in-out .25s;
@@ -403,7 +403,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   nav ul li a {
     color: white;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     -webkit-transition: all ease-in-out .25s;
     transition: all ease-in-out .25s;
