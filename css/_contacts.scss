@@ -115,21 +115,21 @@
 @media screen and (max-device-width: 479px) {
     #contacts {
         height: 100vh;
-        min-height: 1000px;
+        min-height: 800px;
         max-height: 1200px;
         #map {
             width: 100%;
-            max-height: 650px;
-            height: 50vh;
+            max-height: 550px;
+            height: 60vh;
             position: relative;
         }
         div.div_contacts {
             width: 100%;
-            min-height: 450px;
-            max-height: 550px;
+            min-height: 650px;
+            max-height: 700px;
             height: 60vh;
             background-color: #fff;
-            padding: 3%;
+            padding: 2%;
             hr {
                 width: 20%;
                 margin: 2% auto;
@@ -145,7 +145,7 @@
                 height: 100%;
                 max-height: 300px;
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: space-between;
                 .contact_left {
                     display: flex;
@@ -196,12 +196,11 @@
                         }
                     }
                     .mail-btn {
-                        width: 100%;
+                        width: 90%;
                         height: 10%;
-                        max-width: 50%;
+                        margin: 0 auto;
                         min-height: 50px;
                         position: relative;
-                        left: 25%;
                         display: flex;
                         justify-content: center;
                         align-items: center;

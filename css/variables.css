@@ -3646,8 +3646,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (max-device-width: 479px) {
   #gallery {
-    min-height: 870px;
-    max-height: 1040px;
+    min-height: 900px;
+    max-height: 1000px;
     height: 100vh;
     margin-bottom: 50px;
   }
@@ -3695,7 +3695,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     min-width: 315px;
     max-width: 460px;
     min-height: 720px;
-    max-height: 850px;
+    max-height: 820px;
     height: 100vh;
     margin: 0 auto;
     display: -ms-grid;
@@ -4358,22 +4358,22 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 @media screen and (max-device-width: 479px) {
   #contacts {
     height: 100vh;
-    min-height: 1000px;
+    min-height: 800px;
     max-height: 1200px;
   }
   #contacts #map {
     width: 100%;
-    max-height: 650px;
-    height: 50vh;
+    max-height: 550px;
+    height: 60vh;
     position: relative;
   }
   #contacts div.div_contacts {
     width: 100%;
-    min-height: 450px;
-    max-height: 550px;
+    min-height: 650px;
+    max-height: 700px;
     height: 60vh;
     background-color: #fff;
-    padding: 3%;
+    padding: 2%;
   }
   #contacts div.div_contacts hr {
     width: 20%;
@@ -4392,10 +4392,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -4480,12 +4480,11 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     font-size: 20px;
   }
   #contacts div.div_contacts .main_div.contacts .contact_right .mail-btn {
-    width: 100%;
+    width: 90%;
     height: 10%;
-    max-width: 50%;
+    margin: 0 auto;
     min-height: 50px;
     position: relative;
-    left: 25%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
