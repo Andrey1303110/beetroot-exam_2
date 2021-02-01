@@ -248,7 +248,10 @@
 
 @media screen and (min-device-width: 1152px) and (max-device-width: 1439px) {
     #gallery {
-        margin-bottom: 7%;
+        min-height: 800px;
+        max-height: 900px;
+        height: 50vh;
+        margin-bottom: 50px;
         hr {
             margin: 5% auto;
             width: 15%;
@@ -342,7 +345,7 @@
         a {
             width: 100%;
             max-width: 190px;
-            min-height: 80px;
+            min-height: 70px;
             height: 5%;
             margin: 5% auto;
             display: flex;
