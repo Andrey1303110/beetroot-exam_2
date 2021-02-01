@@ -1,67 +1,437 @@
-footer {
-    height: 70vh;
-    min-height: 700px;
-    max-height: 1000px;
-    background-image: url(../img/footer/footer_bg.jpg);
-    background-repeat: round;
-    background-size: cover;
-    .footer {
-        padding: 0 25%;
-        display: flex;
-        flex-direction: row;
-        min-height: 10%;
-        justify-content: space-between;
-        align-items: center;
-        top: 70%;
-        position: relative;
-        #logo_footer {
-            filter: grayscale(1) brightness(5);
-        }
-        .footer_up_icons {
+@media screen and (max-device-width: 479px) {
+    footer {
+        height: 70vh;
+        min-height: 400px;
+        max-height: 600px;
+        background-image: url(../img/footer/footer_bg.jpg);
+        background-repeat: round;
+        background-size: cover;
+        .footer {
+            padding: 0 2%;
             display: flex;
             flex-direction: row;
+            min-height: 10%;
             justify-content: space-between;
-            width: 40%;
-            cursor: pointer;
-            img {
-                border: 1px solid white;
-                padding: 3%;
+            align-items: center;
+            top: 65%;
+            position: relative;
+            &.up {
+                display: flex;
+                flex-direction: column;
+                height: 130px;
+            }
+            #logo_footer {
                 filter: grayscale(1) brightness(5);
-                margin: 0 2%;
-                width: 50px;
-                height: 50px;
-                transition: all .75s ease-in-out;
-                &:hover {
-                    filter: grayscale(0) brightness(1);
+            }
+            .footer_up_icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                cursor: pointer;
+                margin: 0 auto;
+                width: 100%;
+                img {
+                    border: 1px solid white;
+                    padding: 3%;
+                    filter: grayscale(1) brightness(5);
+                    width: 60px;
+                    height: 60px;
+                    transition: all .75s ease-in-out;
+                    &:hover {
+                        filter: grayscale(0) brightness(1);
+                    }
+                }
+            }
+            .footer.down_text {
+                color: #fff;
+                font-family: "GothamBook", sans-serif;
+                justify-content: space-evenly;
+                padding: 0;
+                width: 300px;
+                margin: 0 auto;
+                height: 55px;
+                margin-top: 5%;
+                &:hover r {
+                    animation-play-state: running;
+                }
+                r {
+                    color: red;
+                    font-size: 40px;
+                    animation: heart 1s infinite;
+                    animation-play-state: paused;
+                    width: 30px;
+                    text-align: center;
+    
+                    @keyframes heart {
+                        0% { font-size: 30px; }
+                        30% { font-size: 30px; }
+                        45% { font-size: 55px; }
+                        60% { font-size: 25px; }
+                        75% { font-size: 55px; }
+                        100% { font-size: 30px; }
+                    }
                 }
             }
         }
-        .footer.down_text {
-            color: #fff;
-            font-family: "GothamBook", sans-serif;
-            justify-content: space-evenly;
-            padding: 0;
-            width: 100%;
-            padding: 0 20%;
-            height: 55px;
-            &:hover r {
-                animation-play-state: running;
-            }
-            r {
-                color: red;
-                font-size: 40px;
-                animation: heart 1s infinite;
-                animation-play-state: paused;
-                width: 30px;
-                text-align: center;
+    }
+}
 
-                @keyframes heart {
-                    0% { font-size: 30px; }
-                    30% { font-size: 30px; }
-                    45% { font-size: 55px; }
-                    60% { font-size: 25px; }
-                    75% { font-size: 55px; }
-                    100% { font-size: 30px; }
+@media screen and (min-device-width: 480px) and (max-device-width: 853px) {
+    footer {
+        height: 70vh;
+        min-height: 400px;
+        max-height: 600px;
+        background-image: url(../img/footer/footer_bg.jpg);
+        background-repeat: round;
+        background-size: cover;
+        .footer {
+            padding: 0 3%;
+            display: flex;
+            flex-direction: row;
+            min-height: 10%;
+            justify-content: space-between;
+            align-items: center;
+            top: 80%;
+            position: relative;
+            #logo_footer {
+                filter: grayscale(1) brightness(5);
+            }
+            .footer_up_icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 40%;
+                cursor: pointer;
+                img {
+                    border: 1px solid white;
+                    padding: 3%;
+                    filter: grayscale(1) brightness(5);
+                    margin: 0 2%;
+                    width: 50px;
+                    height: 50px;
+                    transition: all .75s ease-in-out;
+                    &:hover {
+                        filter: grayscale(0) brightness(1);
+                    }
+                }
+            }
+            .footer.down_text {
+                color: #fff;
+                font-family: "GothamBook", sans-serif;
+                justify-content: space-evenly;
+                padding: 0;
+                width: 300px;
+                margin: 0 auto;
+                height: 55px;
+                &:hover r {
+                    animation-play-state: running;
+                }
+                r {
+                    color: red;
+                    font-size: 40px;
+                    animation: heart 1s infinite;
+                    animation-play-state: paused;
+                    width: 30px;
+                    text-align: center;
+    
+                    @keyframes heart {
+                        0% { font-size: 30px; }
+                        30% { font-size: 30px; }
+                        45% { font-size: 55px; }
+                        60% { font-size: 25px; }
+                        75% { font-size: 55px; }
+                        100% { font-size: 30px; }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-device-width: 854px) and (max-device-width: 1151px) {
+    footer {
+        height: 70vh;
+        min-height: 700px;
+        max-height: 1000px;
+        background-image: url(../img/footer/footer_bg.jpg);
+        background-repeat: round;
+        background-size: cover;
+        .footer {
+            padding: 0 15%;
+            display: flex;
+            flex-direction: row;
+            min-height: 10%;
+            justify-content: space-between;
+            align-items: center;
+            top: 75%;
+            position: relative;
+            #logo_footer {
+                filter: grayscale(1) brightness(5);
+            }
+            .footer_up_icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 40%;
+                cursor: pointer;
+                img {
+                    border: 1px solid white;
+                    padding: 3%;
+                    filter: grayscale(1) brightness(5);
+                    margin: 0 2%;
+                    width: 50px;
+                    height: 50px;
+                    transition: all .75s ease-in-out;
+                    &:hover {
+                        filter: grayscale(0) brightness(1);
+                    }
+                }
+            }
+            .footer.down_text {
+                color: #fff;
+                font-family: "GothamBook", sans-serif;
+                justify-content: space-evenly;
+                padding: 0;
+                width: 300px;
+                margin: 0 auto;
+                height: 55px;
+                &:hover r {
+                    animation-play-state: running;
+                }
+                r {
+                    color: red;
+                    font-size: 40px;
+                    animation: heart 1s infinite;
+                    animation-play-state: paused;
+                    width: 30px;
+                    text-align: center;
+    
+                    @keyframes heart {
+                        0% { font-size: 30px; }
+                        30% { font-size: 30px; }
+                        45% { font-size: 55px; }
+                        60% { font-size: 25px; }
+                        75% { font-size: 55px; }
+                        100% { font-size: 30px; }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-device-width: 1152px) and (max-device-width: 1439px) {
+    footer {
+        height: 70vh;
+        min-height: 700px;
+        max-height: 1000px;
+        background-image: url(../img/footer/footer_bg.jpg);
+        background-repeat: round;
+        background-size: cover;
+        .footer {
+            padding: 0 25%;
+            display: flex;
+            flex-direction: row;
+            min-height: 10%;
+            justify-content: space-between;
+            align-items: center;
+            top: 75%;
+            position: relative;
+            #logo_footer {
+                filter: grayscale(1) brightness(5);
+            }
+            .footer_up_icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 40%;
+                cursor: pointer;
+                img {
+                    border: 1px solid white;
+                    padding: 3%;
+                    filter: grayscale(1) brightness(5);
+                    margin: 0 2%;
+                    width: 50px;
+                    height: 50px;
+                    transition: all .75s ease-in-out;
+                    &:hover {
+                        filter: grayscale(0) brightness(1);
+                    }
+                }
+            }
+            .footer.down_text {
+                color: #fff;
+                font-family: "GothamBook", sans-serif;
+                justify-content: space-evenly;
+                padding: 0;
+                width: 300px;
+                margin: 0 auto;
+                height: 55px;
+                &:hover r {
+                    animation-play-state: running;
+                }
+                r {
+                    color: red;
+                    font-size: 40px;
+                    animation: heart 1s infinite;
+                    animation-play-state: paused;
+                    width: 30px;
+                    text-align: center;
+    
+                    @keyframes heart {
+                        0% { font-size: 30px; }
+                        30% { font-size: 30px; }
+                        45% { font-size: 55px; }
+                        60% { font-size: 25px; }
+                        75% { font-size: 55px; }
+                        100% { font-size: 30px; }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-device-width: 1440px) and (max-device-width: 1680px) {
+    footer {
+        height: 70vh;
+        min-height: 700px;
+        max-height: 1000px;
+        background-image: url(../img/footer/footer_bg.jpg);
+        background-repeat: round;
+        background-size: cover;
+        .footer {
+            padding: 0 25%;
+            display: flex;
+            flex-direction: row;
+            min-height: 10%;
+            justify-content: space-between;
+            align-items: center;
+            top: 80%;
+            position: relative;
+            #logo_footer {
+                filter: grayscale(1) brightness(5);
+                width: 350px;
+            }
+            .footer_up_icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 40%;
+                cursor: pointer;
+                img {
+                    border: 1px solid white;
+                    padding: 3%;
+                    filter: grayscale(1) brightness(5);
+                    margin: 0 2%;
+                    width: 70px;
+                    height: 70px;
+                    transition: all .75s ease-in-out;
+                    &:hover {
+                        filter: grayscale(0) brightness(1);
+                    }
+                }
+            }
+            .footer.down_text {
+                color: #fff;
+                font-family: "GothamBook", sans-serif;
+                padding: 0;
+                height: 55px;
+                font-size: 25px;
+                width: 440px;
+                margin: 0 auto;
+                &:hover r {
+                    animation-play-state: running;
+                }
+                r {
+                    color: red;
+                    font-size: 40px;
+                    animation: heart 1s infinite;
+                    animation-play-state: paused;
+                    width: 50px;
+                    text-align: center;
+    
+                    @keyframes heart {
+                        0% { font-size: 30px; }
+                        30% { font-size: 30px; }
+                        45% { font-size: 55px; }
+                        60% { font-size: 25px; }
+                        75% { font-size: 55px; }
+                        100% { font-size: 30px; }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-device-width: 1680px) {
+    footer {
+        height: 70vh;
+        min-height: 700px;
+        max-height: 1000px;
+        background-image: url(../img/footer/footer_bg.jpg);
+        background-repeat: round;
+        background-size: cover;
+        .footer {
+            padding: 0 25%;
+            display: flex;
+            flex-direction: row;
+            min-height: 10%;
+            justify-content: space-between;
+            align-items: center;
+            top: 75%;
+            position: relative;
+            #logo_footer {
+                filter: grayscale(1) brightness(5);
+                width: 350px;
+            }
+            .footer_up_icons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 40%;
+                cursor: pointer;
+                img {
+                    border: 1px solid white;
+                    padding: 3%;
+                    filter: grayscale(1) brightness(5);
+                    margin: 0 2%;
+                    width: 70px;
+                    height: 70px;
+                    transition: all .75s ease-in-out;
+                    &:hover {
+                        filter: grayscale(0) brightness(1);
+                    }
+                }
+            }
+            .footer.down_text {
+                color: #fff;
+                font-family: "GothamBook", sans-serif;
+                padding: 0;
+                height: 55px;
+                font-size: 25px;
+                width: 440px;
+                margin: 0 auto;
+                &:hover r {
+                    animation-play-state: running;
+                }
+                r {
+                    color: red;
+                    font-size: 40px;
+                    animation: heart 1s infinite;
+                    animation-play-state: paused;
+                    width: 50px;
+                    text-align: center;
+    
+                    @keyframes heart {
+                        0% { font-size: 30px; }
+                        30% { font-size: 30px; }
+                        45% { font-size: 55px; }
+                        60% { font-size: 25px; }
+                        75% { font-size: 55px; }
+                        100% { font-size: 30px; }
+                    }
                 }
             }
         }
