@@ -67,8 +67,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   nav a img, nav ul, nav div {
     position: relative;
-    -webkit-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     top: calc(var(--min-height) * 0);
   }
   nav .scrolled {
@@ -201,8 +201,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   nav a img, nav ul, nav div {
     position: relative;
-    -webkit-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     top: calc(var(--min-height) * 0);
   }
   nav .scrolled {
@@ -334,8 +334,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   nav a img, nav ul, nav div {
     position: relative;
-    -webkit-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     top: calc(var(--min-height) * 0);
   }
   nav .scrolled {
@@ -467,8 +467,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   nav a img, nav ul, nav div {
     position: relative;
-    -webkit-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     top: calc(var(--min-height) * 0);
   }
   nav .scrolled {
@@ -601,8 +601,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   nav a img, nav ul, nav div {
     position: relative;
-    -webkit-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     top: calc(var(--min-height) * 0);
   }
   nav .scrolled {
@@ -736,8 +736,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   nav a img, nav ul, nav div {
     position: relative;
-    -webkit-transition: all .7s ease-in-out;
-    transition: all .7s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
     top: calc(var(--min-height) * 0);
   }
   nav .scrolled {
