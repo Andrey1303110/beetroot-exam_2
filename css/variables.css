@@ -3654,8 +3654,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (max-device-width: 479px) {
   #gallery {
-    min-height: 900px;
-    max-height: 1000px;
+    min-height: 910px;
+    max-height: 1010px;
     height: 100vh;
     margin-bottom: 50px;
   }
@@ -3756,8 +3756,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
   #gallery {
-    min-height: 900px;
-    max-height: 1150px;
+    min-height: 920px;
+    max-height: 1170px;
     height: 100vh;
     margin-bottom: 50px;
   }
@@ -5501,7 +5501,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    top: 78%;
+    top: 75%;
     position: relative;
   }
   footer .footer #logo_footer {
