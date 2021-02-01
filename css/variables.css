@@ -3756,8 +3756,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
   #gallery {
-    min-height: 870px;
-    max-height: 1100px;
+    min-height: 900px;
+    max-height: 1150px;
     height: 100vh;
     margin-bottom: 50px;
   }
@@ -5340,7 +5340,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 @media screen and (max-device-width: 479px) {
   footer {
     height: 70vh;
-    min-height: 400px;
+    min-height: 450px;
     max-height: 600px;
     background-image: url(../img/footer/footer_bg.jpg);
     background-repeat: round;
@@ -5431,7 +5431,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
             animation: heart 1s infinite;
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
-    width: 30px;
+    width: 55px;
     text-align: center;
   }
   @-webkit-keyframes heart {
@@ -5479,8 +5479,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
   footer {
     height: 70vh;
-    min-height: 400px;
-    max-height: 600px;
+    min-height: 450px;
+    max-height: 650px;
     background-image: url(../img/footer/footer_bg.jpg);
     background-repeat: round;
     background-size: cover;
@@ -5559,7 +5559,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
             animation: heart 1s infinite;
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
-    width: 30px;
+    width: 55px;
     text-align: center;
   }
   @-webkit-keyframes heart {
@@ -5687,7 +5687,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
             animation: heart 1s infinite;
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
-    width: 30px;
+    width: 55px;
     text-align: center;
   }
   @-webkit-keyframes heart {
@@ -5815,7 +5815,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
             animation: heart 1s infinite;
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
-    width: 30px;
+    width: 55px;
     text-align: center;
   }
   @-webkit-keyframes heart {
@@ -5942,7 +5942,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
             animation: heart 1s infinite;
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
-    width: 50px;
+    width: 55px;
     text-align: center;
   }
   @-webkit-keyframes heart {
@@ -6069,7 +6069,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
             animation: heart 1s infinite;
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
-    width: 50px;
+    width: 55px;
     text-align: center;
   }
   @-webkit-keyframes heart {
