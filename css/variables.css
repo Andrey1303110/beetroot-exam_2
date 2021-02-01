@@ -3646,8 +3646,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (max-device-width: 479px) {
   #gallery {
+    min-height: 870px;
+    max-height: 1040px;
     height: 100vh;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   }
   #gallery hr {
     margin: 5% auto;
@@ -3690,16 +3692,18 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     color: #ffffff;
   }
   #gallery .grid {
-    width: 290px;
-    min-height: 440px;
-    height: 100%;
+    min-width: 315px;
+    max-width: 460px;
+    min-height: 720px;
+    max-height: 850px;
+    height: 100vh;
     margin: 0 auto;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 10px 10px;
         grid-template-areas: "img_1 img_1" "img_1 img_1" "img_2 img_3" "img_4 img_5";
   }
@@ -3745,7 +3749,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
   #gallery {
     min-height: 870px;
-    max-height: 1340px;
+    max-height: 1040px;
     height: 100vh;
     margin-bottom: 50px;
   }
@@ -3792,9 +3796,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   #gallery .grid {
     min-width: 460px;
     max-width: 555px;
-    min-height: 800px;
-    max-height: 1040px;
-    height: 100%;
+    min-height: 720px;
+    max-height: 850px;
+    height: 100vh;
     margin: 0 auto;
     display: -ms-grid;
     display: grid;
