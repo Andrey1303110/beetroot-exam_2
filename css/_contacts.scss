@@ -117,16 +117,15 @@
 }
 
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
-
-}
-
-@media screen and (min-device-width: 854px) and (max-device-width: 1151px) {
     #contacts {
+        height: 70vh;
         min-height: 750px;
+        max-height: 800px;
         #map {
             width: 100%;
             min-height: 750px;
-            height: 75%;
+            max-height: 800px;
+            height: 70vh;
             position: absolute;
         }
         div.div_contacts {
@@ -136,7 +135,8 @@
             width: 50%;
             min-width: 700px;
             z-index: 1;
-            min-height: 50%;
+            min-height: 350px;
+            max-height: 450px;
             background-color: #fff;
             padding: 3%;
             transition: all ease-in-out 1s;
@@ -154,7 +154,7 @@
                 font-size: 44px;
                 font-family: "gothambold1", sans-serif;
                 color: #2c4058;
-                margin: 8% 0%;
+                margin: 4% 0%;
             }
             .main_div.contacts {
                 height: 100%;
@@ -168,6 +168,130 @@
                     flex-direction: column;
                     justify-content: space-evenly;
                     width: 100%;
+                    min-height: 300px;
+                    p {
+                        img {
+                            margin: 0 3%;
+                        }
+                        color: #2c4058;
+                        font-family: "GothamBook", sans-serif;
+                        font-size: 20px;
+                    }
+                }
+                .contact_right {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    label {
+                        background-color: none;
+                        :focus {
+                            background-color: rgba(61, 40, 136, 0.336);
+                        }
+                        :nth-child(1) {
+                            margin-bottom: 15%;
+                            background-color: rgba(255, 255, 255, 0);
+                        }
+                        :nth-child(2) {
+                            margin: 15% 0;
+                            background-color: rgba(255, 255, 255, 0);
+                        }
+                        input {
+                            border: none;
+                            border-bottom: solid 1px #2c4058;
+                            display: flex;
+                            font-size: 20px;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            min-width: 300px;
+                            min-height: 30px;
+                            ::placeholder {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                    .mail-btn {
+                        width: 100%;
+                        height: 10%;
+                        max-width: 50%;
+                        min-height: 50px;
+                        position: relative;
+                        left: 25%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background: transparent;
+                        border: 1px solid #2c4058;
+                        font-family: "GothamBook", sans-serif;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        color: #2c4058;
+                        cursor: pointer;
+                        transition: all .35s ease-in-out;
+                        text-decoration: none;
+                        &:hover {
+                            background-color: #2c4058;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-device-width: 854px) and (max-device-width: 1151px) {
+    #contacts {
+        height: 70vh;
+        min-height: 750px;
+        max-height: 800px;
+        #map {
+            width: 100%;
+            min-height: 750px;
+            max-height: 800px;
+            height: 70vh;
+            position: absolute;
+        }
+        div.div_contacts {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 110%);
+            width: 50%;
+            min-width: 700px;
+            z-index: 1;
+            min-height: 350px;
+            max-height: 450px;
+            background-color: #fff;
+            padding: 3%;
+            transition: all ease-in-out 1s;
+            opacity: .5;
+            &:hover {
+                background-color: #fff;
+                opacity: 1;
+            }
+            hr {
+                width: 20%;
+                margin: 2% auto;
+            }
+            h3 {
+                text-align: center;
+                font-size: 44px;
+                font-family: "gothambold1", sans-serif;
+                color: #2c4058;
+                margin: 4% 0%;
+            }
+            .main_div.contacts {
+                height: 100%;
+                min-height: 200px;
+                min-width: 600px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                .contact_left {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    width: 100%;
+                    min-height: 300px;
                     p {
                         img {
                             margin: 0 3%;
@@ -240,7 +364,9 @@
 
 @media screen and (min-device-width: 1152px) and (max-device-width: 1439px) {
     #contacts {
+        height: 70vh;
         min-height: 750px;
+        max-height: 800px;
         #map {
             width: 100%;
             min-height: 750px;
@@ -286,6 +412,7 @@
                     flex-direction: column;
                     justify-content: space-evenly;
                     width: 100%;
+                    min-height: 350px;
                     p {
                         img {
                             margin: 0 3%;

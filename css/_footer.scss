@@ -1,7 +1,10 @@
 footer {
     height: 70vh;
+    min-height: 700px;
+    max-height: 1000px;
     background-image: url(../img/footer/footer_bg.jpg);
     background-repeat: round;
+    background-size: cover;
     .footer {
         padding: 0 25%;
         display: flex;
