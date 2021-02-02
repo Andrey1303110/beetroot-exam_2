@@ -222,10 +222,28 @@
                     background-repeat: round;
                     background-size: cover;
                     position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    transition: all .25s ease-in-out;
+                    img {
+                        width: 20%;
+                        height: 20%;
+                        margin: 0 auto;
+                        position: relative;
+                        top: -35%;
+                        opacity: 0;
+                        transition: all .3s ease-in-out;
+                        cursor: pointer;
+                    }
                 }
                 div:nth-child(1) {
                     background-image: url(../img/gallery/gallery_1.png);
                     grid-area: img_1;
+                    img {
+                        width: 12%;
+                        height: 12%;
+                    }
                 }
                 div:nth-child(2) {
                     background-image: url(../img/gallery/gallery_2.png);
@@ -304,10 +322,28 @@
                     background-repeat: round;
                     background-size: cover;
                     position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    transition: all .25s ease-in-out;
+                    img {
+                        width: 20%;
+                        height: 20%;
+                        margin: 0 auto;
+                        position: relative;
+                        top: -35%;
+                        opacity: 0;
+                        transition: all .3s ease-in-out;
+                        cursor: pointer;
+                    }
                 }
                 div:nth-child(1) {
                     background-image: url(../img/gallery/gallery_1.png);
                     grid-area: img_1;
+                    img {
+                        width: 12%;
+                        height: 12%;
+                    }
                 }
                 div:nth-child(2) {
                     background-image: url(../img/gallery/gallery_2.png);
@@ -383,10 +419,28 @@
                     background-repeat: round;
                     background-size: cover;
                     position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    transition: all .25s ease-in-out;
+                    img {
+                        width: 20%;
+                        height: 20%;
+                        margin: 0 auto;
+                        position: relative;
+                        top: -35%;
+                        opacity: 0;
+                        transition: all .3s ease-in-out;
+                        cursor: pointer;
+                    }
                 }
                 div:nth-child(1) {
                     background-image: url(../img/gallery/gallery_1.png);
                     grid-area: img_1;
+                    img {
+                        width: 12%;
+                        height: 12%;
+                    }
                 }
                 div:nth-child(2) {
                     background-image: url(../img/gallery/gallery_2.png);
@@ -462,10 +516,28 @@
                     background-repeat: round;
                     background-size: cover;
                     position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    transition: all .25s ease-in-out;
+                    img {
+                        width: 20%;
+                        height: 20%;
+                        margin: 0 auto;
+                        position: relative;
+                        top: -35%;
+                        opacity: 0;
+                        transition: all .3s ease-in-out;
+                        cursor: pointer;
+                    }
                 }
                 div:nth-child(1) {
                     background-image: url(../img/gallery/gallery_1.png);
                     grid-area: img_1;
+                    img {
+                        width: 12%;
+                        height: 12%;
+                    }
                 }
                 div:nth-child(2) {
                     background-image: url(../img/gallery/gallery_2.png);

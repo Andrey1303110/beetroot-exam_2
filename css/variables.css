@@ -3926,6 +3926,29 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     background-repeat: round;
     background-size: cover;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  #gallery .grid div img {
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: -35%;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
   }
   #gallery .grid div:nth-child(1) {
     background-image: url(../img/gallery/gallery_1.png);
@@ -3933,6 +3956,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -ms-grid-row-span: 2;
     -ms-grid-column: 1;
     grid-area: img_1;
+  }
+  #gallery .grid div:nth-child(1) img {
+    width: 12%;
+    height: 12%;
   }
   #gallery .grid div:nth-child(2) {
     background-image: url(../img/gallery/gallery_2.png);
@@ -4027,6 +4054,29 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     background-repeat: round;
     background-size: cover;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  #gallery .grid div img {
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: -35%;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
   }
   #gallery .grid div:nth-child(1) {
     background-image: url(../img/gallery/gallery_1.png);
@@ -4034,6 +4084,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -ms-grid-row-span: 2;
     -ms-grid-column: 1;
     grid-area: img_1;
+  }
+  #gallery .grid div:nth-child(1) img {
+    width: 12%;
+    height: 12%;
   }
   #gallery .grid div:nth-child(2) {
     background-image: url(../img/gallery/gallery_2.png);
@@ -4125,6 +4179,29 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     background-repeat: round;
     background-size: cover;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  #gallery .grid div img {
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: -35%;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
   }
   #gallery .grid div:nth-child(1) {
     background-image: url(../img/gallery/gallery_1.png);
@@ -4132,6 +4209,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -ms-grid-row-span: 2;
     -ms-grid-column: 1;
     grid-area: img_1;
+  }
+  #gallery .grid div:nth-child(1) img {
+    width: 12%;
+    height: 12%;
   }
   #gallery .grid div:nth-child(2) {
     background-image: url(../img/gallery/gallery_2.png);
@@ -4220,6 +4301,29 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     background-repeat: round;
     background-size: cover;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+  }
+  #gallery .grid div img {
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: -35%;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
   }
   #gallery .grid div:nth-child(1) {
     background-image: url(../img/gallery/gallery_1.png);
@@ -4227,6 +4331,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -ms-grid-row-span: 2;
     -ms-grid-column: 1;
     grid-area: img_1;
+  }
+  #gallery .grid div:nth-child(1) img {
+    width: 12%;
+    height: 12%;
   }
   #gallery .grid div:nth-child(2) {
     background-image: url(../img/gallery/gallery_2.png);
