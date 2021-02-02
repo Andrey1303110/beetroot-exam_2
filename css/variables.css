@@ -39,6 +39,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   --min-height: 100px;
 }
 
+* {
+  line-height: 1.4;
+}
+
 @media screen and (max-device-width: 479px) {
   nav {
     top: calc(var(--min-height) * 0);
