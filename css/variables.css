@@ -3210,7 +3210,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    top: 15px;
+    top: 25px;
     left: 0;
     position: relative;
     width: 30%;
@@ -3760,7 +3760,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 480px) and (max-device-width: 853px) {
   #gallery {
-    min-height: 920px;
+    min-height: 990px;
     max-height: 1170px;
     height: 100vh;
     margin-bottom: 50px;
@@ -5422,7 +5422,6 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     width: 300px;
     margin: 0 auto;
     height: 55px;
-    margin-top: 5%;
   }
   footer .footer .footer.down_text:hover r {
     -webkit-animation-play-state: running;
