@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $(`.hover-icon_360`).mouseenter(function(){ 
-      $("img", this).css("top", "0").css("opacity", "1")
+        let color = Math.random() * 360;
+      $("img", this).css("top", "0").css("opacity", "1").css("filter", `hue-rotate(${color}deg)`)
       $(".hover-icon_360").css("opacity", ".6")
       $(this).css("opacity", "1")
     });

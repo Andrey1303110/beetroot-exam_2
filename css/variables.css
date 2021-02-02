@@ -3936,8 +3936,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-transition: all .25s ease-in-out;
-    transition: all .25s ease-in-out;
+    -webkit-transition: all .3s ease-in-out, -webkit-filter .5 ease-in-out;
+    transition: all .3s ease-in-out, -webkit-filter .5 ease-in-out;
+    transition: all .3s ease-in-out, filter .5 ease-in-out;
+    transition: all .3s ease-in-out, filter .5 ease-in-out, -webkit-filter .5 ease-in-out;
   }
   #gallery .grid div img {
     width: 20%;
@@ -4068,14 +4070,16 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     transition: all .25s ease-in-out;
   }
   #gallery .grid div img {
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
     margin: 0 auto;
     position: relative;
     top: -35%;
     opacity: 0;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out, -webkit-filter .5 ease-in-out;
+    transition: all .3s ease-in-out, -webkit-filter .5 ease-in-out;
+    transition: all .3s ease-in-out, filter .5 ease-in-out;
+    transition: all .3s ease-in-out, filter .5 ease-in-out, -webkit-filter .5 ease-in-out;
     cursor: pointer;
   }
   #gallery .grid div:nth-child(1) {
@@ -4189,8 +4193,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-transition: all .25s ease-in-out;
-    transition: all .25s ease-in-out;
+    -webkit-transition: all .3s ease-in-out, -webkit-filter .5 ease-in-out;
+    transition: all .3s ease-in-out, -webkit-filter .5 ease-in-out;
+    transition: all .3s ease-in-out, filter .5 ease-in-out;
+    transition: all .3s ease-in-out, filter .5 ease-in-out, -webkit-filter .5 ease-in-out;
   }
   #gallery .grid div img {
     width: 20%;
@@ -4311,8 +4317,10 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-transition: all .25s ease-in-out;
-    transition: all .25s ease-in-out;
+    -webkit-transition: all .3s ease-in-out, -webkit-filter .5 ease-in-out;
+    transition: all .3s ease-in-out, -webkit-filter .5 ease-in-out;
+    transition: all .3s ease-in-out, filter .5 ease-in-out;
+    transition: all .3s ease-in-out, filter .5 ease-in-out, -webkit-filter .5 ease-in-out;
   }
   #gallery .grid div img {
     width: 20%;
@@ -4321,8 +4329,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     position: relative;
     top: -35%;
     opacity: 0;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out;
     cursor: pointer;
   }
   #gallery .grid div:nth-child(1) {
