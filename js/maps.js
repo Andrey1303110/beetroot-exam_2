@@ -6,10 +6,3 @@ function initMap() {
         map.setMapTypeId(google.maps.MapTypeId.HYBRID);
     var marker = new google.maps.Marker({position: uluru, icon: customIcon, map: map});
 }
-
-function ekran () {
-  alert (`Ширина экрана = ${window.innerWidth} Высота экрана = ${window.innerHeight}`)
-}
-
-ekran ();
-

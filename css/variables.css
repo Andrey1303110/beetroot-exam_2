@@ -3962,8 +3962,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 1152px) and (max-device-width: 1439px) {
   #gallery {
-    min-height: 800px;
-    max-height: 900px;
+    min-height: 900px;
+    max-height: 1000px;
     height: 50vh;
     margin-bottom: 50px;
   }
@@ -4919,7 +4919,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     width: 100%;
-    min-height: 350px;
+    min-height: 250px;
   }
   #contacts div.div_contacts .main_div.contacts .contact_left p {
     color: #2c4058;
