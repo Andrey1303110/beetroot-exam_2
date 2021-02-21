@@ -3138,7 +3138,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     background-image: url(../img/news/news_bg.jpg);
     background-repeat: round;
     min-height: 100%;
-    padding: 5% 10%;
+    padding: 5% 5%;
   }
   #news hr {
     margin: 5% auto;
@@ -3170,6 +3170,18 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #news .slide .down_part_slider {
     padding: 5%;
+    height: 100%;
+    min-height: 360px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   #news .slide .down_part_slider span .title_slide {
     font-family: "gothambold1", sans-serif;
@@ -3274,6 +3286,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #news .slide .down_part_slider {
     padding: 5%;
+    height: 100%;
+    min-height: 330px;
+    max-height: 360px;
   }
   #news .slide .down_part_slider span .title_slide {
     font-family: "gothambold1", sans-serif;
@@ -3368,7 +3383,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   #news .slide {
     background-color: whitesmoke;
     margin: 0 15px;
+    height: 100%;
     min-height: 480px;
+    max-height: 520px;
     width: 30%;
     color: #2c4058;
     cursor: pointer;
@@ -3378,6 +3395,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #news .slide .down_part_slider {
     padding: 5%;
+    height: 100%;
+    min-height: 310px;
+    max-height: 320px;
   }
   #news .slide .down_part_slider span .title_slide {
     font-family: "gothambold1", sans-serif;
@@ -3585,7 +3605,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
   }
   #news .slide .down_part_slider {
     padding: 5%;
-    max-height: 300px;
+    max-height: 305px;
+    min-height: 295px;
   }
   #news .slide .down_part_slider span .title_slide {
     font-family: "gothambold1", sans-serif;
@@ -3719,6 +3740,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     gap: 10px 10px;
         grid-template-areas: "img_1 img_1" "img_1 img_1" "img_2 img_3" "img_4 img_5";
   }
+  #gallery .grid img {
+    display: none;
+  }
   #gallery .grid div {
     background-repeat: round;
     background-size: cover;
@@ -3820,6 +3844,9 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
         grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 10px 10px;
         grid-template-areas: "img_1 img_1" "img_1 img_1" "img_2 img_3" "img_4 img_5";
+  }
+  #gallery .grid img {
+    display: none;
   }
   #gallery .grid div {
     background-repeat: round;

@@ -107,7 +107,7 @@
         background-image: url(../img/news/news_bg.jpg);
         background-repeat: round;
         min-height: 100%;
-        padding: 5% 10%;
+        padding: 5% 5%;
         hr {
             margin: 5% auto;
             width: 15%;
@@ -137,6 +137,11 @@
             }
             .down_part_slider {
                 padding: 5%;
+                height: 100%;
+                min-height: 360px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 span {
                     .title_slide {
                         font-family: "gothambold1", sans-serif;
@@ -238,6 +243,9 @@
             }
             .down_part_slider {
                 padding: 5%;
+                height: 100%;
+                min-height: 330px;
+                max-height: 360px;
                 span {
                     .title_slide {
                         font-family: "gothambold1", sans-serif;
@@ -332,7 +340,9 @@
         .slide {
             background-color: whitesmoke;
             margin: 0 15px;
+            height: 100%;
             min-height: 480px;
+            max-height: 520px;
             width: 30%;
             color: #2c4058;
             cursor: pointer;
@@ -341,6 +351,9 @@
             }
             .down_part_slider {
                 padding: 5%;
+                height: 100%;
+                min-height: 310px;
+                max-height: 320px;
                 span {
                     .title_slide {
                         font-family: "gothambold1", sans-serif;
