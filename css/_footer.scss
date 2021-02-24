@@ -1,8 +1,8 @@
 @media screen and (max-device-width: 479px) {
     footer {
         height: 70vh;
-        min-height: 450px;
-        max-height: 600px;
+        min-height: 1000px;
+        max-height: 1300px;
         background-image: url(../img/footer/footer_bg.jpg);
         background-repeat: round;
         background-size: cover;
@@ -13,7 +13,7 @@
             min-height: 10%;
             justify-content: space-between;
             align-items: center;
-            top: 65%;
+            bottom: -75%;
             position: relative;
             &.up {
                 display: flex;
@@ -58,7 +58,7 @@
                     font-size: 40px;
                     animation: heart 1s infinite;
                     animation-play-state: paused;
-                    width: 55px;
+                    width: 65px;
                     text-align: center;
     
                     @keyframes heart {

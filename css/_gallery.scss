@@ -60,6 +60,7 @@
                     background-repeat: round;
                     background-size: cover;
                     position: relative;
+                    transition: all .45s ease-in-out;
                 }
                 div:nth-child(1) {
                     background-image: url(../img/gallery/gallery_1.png);

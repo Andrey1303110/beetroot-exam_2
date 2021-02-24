@@ -2,7 +2,9 @@
     #news {
         background-image: url(../img/news/news_bg.jpg);
         background-repeat: round;
-        min-height: 100%;
+        min-height: 700px;
+        max-height: 750px;
+        height: 100vh;
         padding: 5% 15%;
         hr {
             margin: 5% auto;
@@ -27,6 +29,11 @@
             }
             .down_part_slider {
                 padding: 5%;
+                height: 100%;
+                min-height: 290px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 span {
                     .title_slide {
                         font-family: "gothambold1", sans-serif;
@@ -44,7 +51,6 @@
                 div {
                     font-family: "GothamBook", sans-serif;
                     display: flex;
-                    margin-top: 12%;
                     position: relative;
                     img {
                         margin-right: 5%;
@@ -71,10 +77,10 @@
     .slider-news ul.slick-dots {
         display: flex;
         flex-direction: row;
-        top: 15px;
+        top: 50px;
         left: 0;
         position: relative;
-        width: 30%;
+        width: 100%;
         justify-content: space-evenly;
         margin: 0 auto;
         opacity: .9;
@@ -244,7 +250,7 @@
             .down_part_slider {
                 padding: 5%;
                 height: 100%;
-                min-height: 330px;
+                min-height: 335px;
                 max-height: 360px;
                 span {
                     .title_slide {
