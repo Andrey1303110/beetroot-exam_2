@@ -3375,8 +3375,8 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 1152px) and (max-device-width: 1439px) {
   #news {
-    min-height: 950px;
-    max-height: 1050px;
+    min-height: 1000px;
+    max-height: 1100px;
     height: 100vh;
     background-image: url(../img/news/news_bg.jpg);
     background-repeat: round;
@@ -3399,7 +3399,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     margin: 0 15px;
     height: 100%;
     min-height: 480px;
-    max-height: 520px;
+    max-height: 580px;
     width: 30%;
     color: #2c4058;
     cursor: pointer;
@@ -5399,7 +5399,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    min-height: 10%;
+    min-height: 8%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -5537,7 +5537,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    min-height: 10%;
+    min-height: 8%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -5665,7 +5665,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    min-height: 10%;
+    min-height: 8%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -5793,7 +5793,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    min-height: 10%;
+    min-height: 8%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -5921,7 +5921,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    min-height: 10%;
+    min-height: 8%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -6048,7 +6048,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    min-height: 10%;
+    min-height: 8%;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
