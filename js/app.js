@@ -10,3 +10,4 @@ $(document).ready(function(){
         $(".hover-icon_360").css("opacity", "1")
   });
 });
+// add some comment
