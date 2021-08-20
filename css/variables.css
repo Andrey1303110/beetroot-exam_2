@@ -3484,7 +3484,7 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
 
 @media screen and (min-device-width: 1440px) and (max-device-width: 1680px) {
   #news {
-    min-height: 850px;
+    min-height: 900px;
     max-height: 950px;
     height: 100vh;
     background-image: url(../img/news/news_bg.jpg);
@@ -6156,4 +6156,3 @@ body, h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquot
     }
   }
 }
-/*# sourceMappingURL=variables.css.map */
