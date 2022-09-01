@@ -2,8 +2,8 @@
     #news {
         background-image: url(../img/news/news_bg.jpg);
         background-repeat: round;
-        min-height: 700px;
-        max-height: 750px;
+        min-height: 650px;
+        max-height: 700px;
         height: 100vh;
         padding: 5% 15%;
 
@@ -107,11 +107,11 @@
     }
 
     .slick-prev.slick-arrow {
-        left: -40px;
+        left: -45px;
     }
 
     .slick-next.slick-arrow {
-        right: -15px;
+        right: -45px;
     }
 
     .slick-prev:before,
@@ -349,11 +349,11 @@
     }
 
     .slick-prev.slick-arrow {
-        left: -25px;
+        left: -19px;
     }
 
     .slick-next.slick-arrow {
-        right: -10px;
+        right: -19px;
     }
 
     .slick-prev:before,
@@ -475,7 +475,7 @@
     }
 
     .slick-next.slick-arrow {
-        right: -15px;
+        right: -40px;
     }
 
     .slick-prev:before,
@@ -592,7 +592,7 @@
     }
 
     .slick-next.slick-arrow {
-        right: -15px;
+        right: -40px;
     }
 
     .slick-prev:before,
@@ -711,7 +711,7 @@
     }
 
     .slick-next.slick-arrow {
-        right: -15px;
+        right: -40px;
     }
 
     .slick-prev:before,
