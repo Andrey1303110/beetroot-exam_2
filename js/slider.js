@@ -14,7 +14,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    if (window.innerWidth < 854) {
+    if (window.innerWidth <= 854) {
         $(document).ready(function () {
             $('.slider-news').slick({
                 arrows: true,
